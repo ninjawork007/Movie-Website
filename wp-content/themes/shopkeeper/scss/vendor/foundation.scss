@@ -1,0 +1,11 @@
+@import "../../inc/foundation/scss/foundation";
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-forms;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+@include foundation-responsive-embed;
+@include foundation-off-canvas;

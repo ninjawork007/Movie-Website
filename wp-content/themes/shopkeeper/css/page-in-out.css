@@ -1,0 +1,12 @@
+#st-container {
+  opacity: .2;
+  transition: opacity .7s;
+}
+
+#st-container.fade_in {
+  opacity: 1;
+}
+
+#st-container.fade_out {
+  opacity: .2;
+}

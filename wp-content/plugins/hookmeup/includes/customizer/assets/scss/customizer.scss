@@ -1,0 +1,330 @@
+.wp-full-overlay-header
+{
+	z-index: 0 !important;
+}
+
+#sub-accordion-section-hookmeup_shop_section,
+#sub-accordion-section-hookmeup_product_section,
+#sub-accordion-section-hookmeup_cart_section,
+#sub-accordion-section-hookmeup_checkout_section,
+#sub-accordion-section-hookmeup_account_section,
+#sub-accordion-section-hookmeup_login_section,
+#sub-accordion-section-hookmeup_cart_widget_section,
+#sub-accordion-section-hookmeup_thankyou_section
+{
+	overflow-y: hidden !important;
+
+	.customize-section-description-container + .customize-control-hmu-info
+	{
+	    margin-top: 10px;
+	}
+
+	.customize-control-hmu-editor
+	{
+		textarea
+		{
+			width: 100%;
+		}
+	}
+
+	.customize-control-hmu-toggle
+	{
+		margin-bottom: 25px;
+
+		.toggle-content
+		{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+
+			.customize-control-title
+			{
+				flex: 2 0 0;
+				margin-bottom: 0;
+				padding-top: 2px;
+				vertical-align: middle;
+			}
+		}
+
+		.toggle-description
+		{
+			i
+			{
+				color: #6b6b6b;
+				font-size: 11px;
+
+				span
+				{
+					display: block;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	.customize-control-hmu-info
+	{
+		margin-bottom: 25px;
+
+		.section_warning
+		{
+			display: block;
+		    border: 1px solid #8b8f9438;
+		    padding: 15px 10px 15px 18px;
+		    background: #fff;
+
+			&:before
+			{
+			    font-family: dashicons;
+			    content: '\f534';
+			    font-style: normal;
+			    font-size: 16px;
+			    margin-right: 5px;
+			    display: inline;
+			    vertical-align: top;
+			}
+		}
+	}
+
+	.customize-control-hmu-collapsible
+	{
+		position: relative;
+
+		.tooltip-wrapper
+		{
+			color: #8b8f94;
+			cursor: pointer;
+			position: absolute;
+		    right: 40px;
+		    top: 15px;
+		    z-index: 1;
+
+		    .tooltip-trigger
+		    {
+		    	span.dashicons
+		    	{
+	    		    position: absolute;
+   					right: 0;
+		    	}
+		    }
+
+		    .tooltip-content
+		    {
+		    	background: #8b8f94;
+		    	border-radius: 5px;
+		    	color: #fff;
+		    	cursor: pointer;
+    			font-size: 11px;
+			    left: unset;
+			    padding: 5px 10px;
+		        position: absolute;
+			    right: 26px;
+			    top: -4px;
+			    word-wrap: break-word;
+
+    			&:after
+    			{
+				    content: "\f139";
+				    color: #8b8f94;
+				    font-size: 20px;
+				    font-family: dashicons;
+				    position: absolute;
+				    right: -11px;
+				    top: 5px;
+    			}
+		    }
+		}
+	}
+
+	.wp-editor-tools
+	{
+		z-index: 9999 !important;
+	}
+
+	.mce-btn.mce-active button, 
+	.mce-btn.mce-active:hover button, 
+	.mce-btn.mce-active i, 
+	.mce-btn.mce-active:hover i
+	{
+    	color: #545d65;
+	}
+
+	.mce-tinymce:not(.mce-fullscreen) .mce-edit-area,
+	.mce-tinymce:not(.mce-fullscreen) .mce-edit-area iframe
+	{
+		@media all and (min-height: 600px) and (max-height: 800px) {
+			height: 100px !important;
+		}
+
+		@media all and (min-height: 800px) {
+			height: 250px !important;
+		}
+	}
+
+	.customize-control-description
+	{
+		font-style: italic !important;
+	}
+
+	.customize-control-hidden,
+	.customize-control-hidden .wp-editor-tools
+	{
+	  opacity: 0;
+	  max-height: 0;
+	  transition: all 0.3s ease-in-out;
+	  visibility: hidden;
+	}
+
+	.customize-control:not(.customize-control-hidden),
+	.customize-control:not(.customize-control-hidden) .wp-editor-tools
+	{
+		opacity: 1;
+	  	max-height: 500px;
+	  	transition: all 0.3s ease-in-out;
+	  	visibility: visible;
+	}
+
+	.customizer-control-collapsible
+	{
+		border-top: 1px solid rgba(0, 0, 0, 0.05);
+		margin: 0 -12px;
+		position: relative;
+
+		div.enabled-hook
+		{
+		    display: inline-block;
+    		margin-right: 5px;
+    		vertical-align: middle;
+
+    		svg
+    		{
+    			.svg-path
+    			{
+				    fill: #8b8f94;
+    			}
+
+    			.svg-circle
+    			{
+    				fill: none;
+    			}
+    		}
+
+    		&.enabled
+    		{
+    			.svg-circle
+    			{
+    				fill: #59ab59;
+    			}
+    		}
+		}
+
+		h3
+		{
+			background: white;
+			color: #555;
+			cursor: pointer;
+			display: block;
+			font-size: 13px !important;
+			line-height: 20px;
+			margin: 0;
+			padding: 12px 14px 8px 12px;
+			position: relative;
+
+			&:after
+			{
+				content: "\f343";
+				color: #a0a5aa;
+				font: 400 20px/1 dashicons;
+				position: absolute;
+				right: 14px;
+				top: 12px;
+			}
+
+			&:hover
+			{
+				background: #f5f5f5;
+				color: #0073aa;
+
+	  			&:after
+	  			{
+	  				color: #0073aa;
+	  			}
+			}
+		}
+	}
+
+	.customize-control-collapsed
+	{
+		margin-bottom: 0;
+		position: relative;
+
+		.customizer-control-collapsible h3:after
+		{
+			content: "\f347";
+			top: 15px;
+		}
+	}
+}
+
+.disabled-control-title
+{
+  color: #a0a5aa;
+}
+
+input[type=checkbox].tgl
+{
+  display: none;
+}
+
+input[type=checkbox].tgl + .tgl-btn
+{
+  background: #a0a5aa;
+  border-radius: 2em;
+  cursor: pointer;
+  display: block;
+  height: 1.8em;
+  outline: 0;
+  padding: 2px;
+  position: relative;
+  transition: all .4s ease;
+  width: 3.6em;
+}
+
+input[type=checkbox].tgl:checked + .tgl-btn
+{
+  background: #0085ba;
+}
+
+input[type=checkbox].tgl:checked + .tgl-btn:after
+{
+  left: 50%;
+}
+
+input[type=checkbox].tgl + .tgl-btn:after
+{
+	background: #fff;
+	border-radius: 50%;
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: relative;
+	width: 50%;
+	transition: all .2s ease;
+}
+
+input[type=checkbox].tgl + .tgl-btn:before
+{
+  display: none;
+}
+
+input[type=checkbox].tgl::selection, 
+input[type=checkbox].tgl:after::selection, 
+input[type=checkbox].tgl:before::selection, 
+input[type=checkbox].tgl *::selection, 
+input[type=checkbox].tgl *:after::selection, 
+input[type=checkbox].tgl *:before::selection, 
+input[type=checkbox].tgl + .tgl-btn::selection
+{
+  background: none;
+}

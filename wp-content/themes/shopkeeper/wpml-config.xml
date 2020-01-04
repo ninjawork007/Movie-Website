@@ -1,0 +1,31 @@
+<wpml-config>
+  <admin-texts>
+  	<key name="theme_mods_shopkeeper">
+      <key name="top_bar_text"/>
+      <key name="footer_copyright_text"/>
+      <key name="facebook_link"/>
+      <key name="twitter_link"/>
+      <key name="pinterest_link"/>
+      <key name="linkedin_link"/>
+      <key name="googleplus_link"/>
+      <key name="rss_link"/>
+      <key name="tumblr_link"/>
+      <key name="instagram_link"/>
+      <key name="youtube_link"/>
+      <key name="vimeo_link"/>
+      <key name="behance_link"/>
+      <key name="dribbble_link"/>
+      <key name="flickr_link"/>
+      <key name="git_link"/>
+      <key name="skype_link"/>
+      <key name="weibo_link"/>
+      <key name="foursquare_link"/>
+      <key name="soundcloud_link"/>
+      <key name="vk_link"/>
+      <key name="houzz_link"/>
+      <key name="naver_line_link"/>
+      <key name="tripadvisor_link"/>
+      <key name="wechat_link"/>
+	</key>
+  </admin-texts>
+</wpml-config>

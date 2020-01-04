@@ -1,0 +1,100 @@
+body.gbt_classic_notif
+{
+	.woocommerce-message,
+	.woocommerce-error,
+	.woocommerce-info,
+	.woocommerce-notice
+	{
+		background: none;
+		border: none;
+		padding: 1rem 1rem 1rem 2.2rem;
+		margin-bottom: 0;
+		text-align: left;
+		word-break: break-word;
+
+		&:before
+		{
+		    font-family: 'Shopkeeper-Icon-Font';
+		    font-size: 24px;
+		    left: 0;
+		    top: 10px;
+		}
+
+		@media all and (max-width: 767px) {
+			font-size: 13px;
+
+			&:before
+			{
+				top: 7px;
+			}
+		}
+
+		li
+		{
+			margin-bottom: 0.5rem;
+		}
+
+		a,
+		input[type="submit"],
+		input.button,
+		.button
+		{
+			background: none !important;
+			padding: 0 0 3px 0 !important;
+			float: none;
+		    font-weight: bold;
+			min-width: 90px;
+			margin: 0 5px !important;
+			font-size: 13px !important;
+		    border-bottom: 1px solid !important;
+		    display: inline;
+	        text-transform: uppercase;
+
+		    @media all and (max-width: 767px) {
+		    	width: fit-content;
+    			margin: 0.5rem 0 0 0 !important;
+		    }
+
+		    &:hover
+		    {
+		    	opacity: 0.7;
+		    }
+		}
+
+		a
+		{
+			text-decoration: none !important;
+		}
+
+		form 
+		{
+			@media all and (max-width: 767px) {
+				display: block !important;
+			}
+		}
+	}
+
+	.woocommerce-error
+	{
+    	&:before
+    	{
+    		content: '\e90b';
+    	}
+	}
+
+	.woocommerce-message
+	{
+		&:before
+    	{
+    		content: '\e923';
+    	}
+	}
+
+	.woocommerce-info
+	{
+		&:before
+		{
+			content: '\e921';
+		}
+	}	
+}

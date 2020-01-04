@@ -1,0 +1,605 @@
+// Support for alignwide, alignfull
+.entry-content
+{
+	.alignfull
+	{
+		margin-left: calc( -100vw / 2 + 100% / 2 );
+	    margin-right: calc( -100vw / 2 + 100% / 2 );
+	    max-width: 100vw;
+	}
+}
+
+.page-template-page-boxed
+{
+	.alignwide
+	{
+		@media #{$large-up}
+		{
+		    margin-left: calc( -75vw / 2 + 100% / 2 );
+		    margin-right: calc( -75vw / 2 + 100% / 2 );
+		    max-width: 75vw;
+		}
+	}
+}
+
+.page-template-default
+{
+	.alignwide
+	{
+		@media #{$large-up}
+		{
+		    margin-left: calc( -93vw / 2 + 100% / 2 );
+		    margin-right: calc( -93vw / 2 + 100% / 2 );
+		    max-width: 93vw;
+		}
+	}
+}
+
+// General margins
+[class*='wp-block-'],
+.wc-block-featured-product,
+.gbt_18_sk_social_media_wrapper,
+.gbt_18_sk_slider_wrapper,
+.gbt_18_sk_portfolio,
+.gbt_18_sk_banner
+{
+    margin-bottom: 2.5rem;
+}
+
+.gbt_18_sk_categories_grid
+{
+	margin-bottom: 1.25rem;
+}
+
+.gbt_18_sk_posts_grid {
+	margin-bottom: 0.5rem;
+}
+
+.wp-block-cover.alignleft,
+.wp-block-cover.alignright,
+.wp-block-image.alignleft,
+.wp-block-image.alignright
+{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+// Gallery Block
+.wp-block-gallery
+{
+	margin: 0 0 calc(2.5rem - 16px) 0;
+
+	@media all and (max-width: 480px) {
+		&.alignright,
+	    &.alignleft
+	    {
+	    	margin: 0;
+	    	max-width: 100%;
+	    }
+	}
+
+	@media all and (min-width: 481px) {
+	    &.alignleft
+	    {
+	    	margin: 0 1.5rem 0 0;
+	    }
+
+	    &.alignright
+	    {
+			margin: 0 0 0 1.5rem;
+	    }
+	}
+}
+
+// Quotes & Pullquotes
+.wp-block-quote,
+.wp-block-quote.is-style-large
+{
+	padding: 0 1em;
+
+	p
+	{
+		font-size: 1.875rem;
+		font-style: normal;
+		line-height: 1.333em;
+		font-weight: 700;
+		padding: 0;
+
+		@media all and (max-width: 767px) {
+			font-size: 23px;
+		}
+	}
+
+	cite
+	{
+		font-size: 14px;
+	    text-align: left;
+	}
+}
+
+.wp-block-quote.is-style-large
+{
+	margin-bottom: 2.5rem !important;
+}
+
+.entry-content > p + .wp-block-quote.is-style-large
+{
+	margin-top: 2.5rem !important;
+}
+
+.wp-block-pullquote
+{
+	&.alignleft,
+	&.alignright
+	{
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+	}
+
+	&.is-style-solid-color
+	{
+		&.alignleft,
+		&.alignright
+		{
+			blockquote p
+			{
+				font-size: 20px;
+			}
+		}
+
+		&.alignright
+		{
+			blockquote
+			{
+				text-align: right;
+			}
+		}
+	}
+
+	blockquote
+	{
+		margin: 0 auto;
+		max-width: 60%;
+
+		&.has-text-color p,
+		&.has-text-color cite
+		{
+			color: inherit;
+		}
+	}
+
+	p
+	{
+		color: inherit;
+		font-weight: 700;
+		padding: 0;
+		line-height: 1.333em;
+	}
+
+	cite
+	{
+		color: inherit;
+		font-size: 14px;
+		text-transform: inherit;
+	}
+}
+
+// Embeds
+.wp-block-embed
+{
+	.responsive-embed.widescreen,
+	.widescreen,
+	.responsive-embed,
+	.video-container
+	{
+	    padding-bottom: 0;
+	}
+
+	.video-container {
+	    margin-top: 0;
+	    text-align: center;
+	}
+
+	.responsive-embed {
+	    position: initial;
+	    margin-bottom: 0;
+	}
+}
+
+// Tables
+.wp-block-table
+{
+	&:not(.is-style-stripes)
+	{
+		tbody tr:last-child td
+		{
+			border-bottom: 1px solid;
+		}
+	}
+
+	td
+	{
+		padding: 0.5em;
+	}
+}
+
+// Buttons
+.wp-block-button
+{
+	&.aligncenter
+	{
+	    margin-bottom: 1.5em;
+	}
+	
+	a.wp-block-button__link
+	{
+		font-size: 13px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+}
+
+ // Files
+ .wp-block-file
+ {
+ 	.wp-block-file__button
+ 	{
+ 		margin-bottom: 0;
+ 	}
+ }
+
+// Cover Images
+.wp-block-cover::-webkit-scrollbar
+{ 
+    display: none;
+}
+
+.wp-block-cover
+{
+	-ms-overflow-style: none;
+
+	&.alignwide,
+	&.alignfull
+	{
+		width: auto;
+	}
+
+	&.has-parallax // fixed background
+	{
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+	&.alignright,
+	&.alignleft
+	{
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+
+		@media all and (max-width: 480px) {
+	    	width: 50% !important;
+		}
+	}
+
+	&.alignleft
+	{
+		.wp-block-cover-text
+		{
+			text-align: left;
+		}
+	}
+
+	&.alignright
+	{
+		.wp-block-cover-text
+		{
+			text-align: right;
+		}
+	}
+
+	.wp-block-cover-text
+	{
+		font-weight: bold;
+		margin: 10% !important;
+
+		@media all and (max-width: 480px) {
+		    font-size: 24px;
+		}
+	}
+}
+
+// Media & text
+.wp-block-media-text
+{
+	.wp-block-media-text__content p
+	{
+		font-weight: 700;
+	}
+}
+
+// Images
+.wp-block-image
+{
+	margin-bottom: 1.5em;
+	position: relative;
+	max-width: none !important;
+
+	figure
+	{
+		position: relative;
+	}
+
+	figcaption
+	{
+		position: absolute;
+	    bottom: 25px;
+	    width: 180px;
+	    padding: 15px 20px;
+	    background: #333333;
+	    margin: 0;
+	    color: #999;
+	    font-size: 14px;
+	    line-height: 16px;
+	    text-align: left;
+	    right: -25px;
+	}
+
+	.aligncenter
+	{
+		@media all and (max-width: 480px) {
+	    	width: 100% !important;
+	    	margin-left: 0;
+    		margin-right: 0;
+
+	    	img
+			{
+				width: 100%;
+			}
+		}
+	}
+
+	.alignright,
+	.alignleft
+	{
+		@media all and (max-width: 480px) {
+	    	width: 50% !important;
+
+	    	img
+			{
+				width: 100%;
+			}
+		}
+	}
+
+	&.alignfull,
+	&.alignwide
+	{
+		img
+		{
+			width: 100%;
+		}
+	}
+
+	&.alignleft
+	{
+		figcaption
+		{
+		    left: -25px;
+		    right: auto;
+		}
+	}
+}
+
+figure.wp-block-image
+{
+	img
+	{
+		width: 100%;
+	}
+}
+
+// Subhead
+p.wp-block-subhead
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+// Code
+.wp-block-code code
+{
+	background: transparent;
+	border: 0;
+}
+
+// Columns
+.wp-block-columns,
+.wp-block-text-columns
+{
+	@include breakpoint(small down)
+	{
+		display: block;
+		overflow:hidden;
+   		width: 100%;
+	}
+
+	.wp-block-column
+	{
+		padding-right: 0.75rem;
+		padding-left: 0.75rem;
+
+		@include breakpoint(small down)
+		{
+			width: 100% !important;
+			padding: 0;
+			margin: 0;
+		}
+
+		&:first-child
+		{
+			padding-left: 0;
+		}
+
+		&:last-child
+		{
+			padding-right: 0;
+		}
+	}
+
+	&.has-4-columns,
+	&.has-5-columns,
+	&.has-6-columns,
+	&.columns-4
+	{
+		@include breakpoint(medium only)
+		{
+			display: block;
+			overflow:hidden;
+    		width: 100%;
+
+			.wp-block-column
+			{
+				width: 50%;
+				float: left;
+				margin: 0;
+
+				&:nth-child(odd):not(:first-child)
+				{
+					clear: both;
+					padding-left: 0;
+				}
+
+				&:nth-child(even)
+				{
+					padding-right: 0;
+				}
+			}
+		}
+	}
+}
+
+// Widgets
+.wp-block-latest-posts,
+.wp-block-categories,
+.wp-block-archives
+{
+	margin-left: 0;
+	margin-right: 0;
+
+	li
+	{
+		list-style-type: none;
+	}
+}
+
+// Video
+.wp-block-video
+{
+	video
+	{
+		width: 100%;
+	}
+}
+
+// Latest Posts
+.wp-block-latest-posts
+{
+	li
+	{
+		margin-bottom: 16px;
+	}
+
+	a
+	{
+	    font-size: 24px;
+	    font-weight: 900;
+	    line-height: 36px;
+	}
+
+	.wp-block-latest-posts__post-date
+	{
+		margin-bottom: 0;
+	}
+}
+
+// Extender - Categories Grid Block
+.gbt_18_sk_categories_grid
+{
+	.gbt_18_sk_category_count
+	{
+		font-size: 13px;
+	}
+
+	.gbt_18_sk_category_name
+	{
+		@media all and (min-width: 63.9375em) {
+			font-size: 18px;
+		}
+	}
+}
+
+// Extender - Posts Grid Block
+.gbt_18_sk_posts_grid
+{
+	.gbt_18_sk_posts_grid_title
+	{
+		font-size: 24px;
+		line-height: 1.4em;
+
+		@media all and (min-width: 640px) and (max-width: 1023px) {
+	    	font-size: 22px;
+	    }
+
+	    @media all and (max-width: 639px) {
+	    	font-size: 20px;
+	    }
+	}
+}
+
+body,
+.woocommerce
+{
+	.wp-block-woocommerce-handpicked-products,
+	.wp-block-woocommerce-product-best-sellers,
+	.wp-block-woocommerce-product-on-sale,
+	.wp-block-woocommerce-product-top-rated,
+	.wp-block-woocommerce-products-by-attribute,
+	.wp-block-woocommerce-product-category,
+	.wp-block-woocommerce-product-new
+	{
+		ul.products
+		{
+			margin-bottom: 0;
+		}
+
+		&.alignfull
+		{
+			padding: 0 1.6rem;
+		}
+
+		&.is-hidden-title
+		{
+			li.product h3,
+			.yith-wcwl-add-to-wishlist
+			{
+				display: none;
+			}
+		}
+
+		&.is-hidden-rating
+		{
+			li.product .star-rating
+			{
+				display: none;
+			}
+		}
+	}
+
+	.wc-block-featured-product
+	{
+		width: auto;
+	}
+}

@@ -1,0 +1,54 @@
+.sk-toggle-content .customize-control-title
+{
+  display: inline-block;
+}
+
+.sk-toggle-content hr
+{
+  margin-bottom: 12px;
+}
+
+input[type=checkbox].sk-tgl
+{
+  display: none;
+}
+
+input[type=checkbox].sk-tgl + .sk-tgl-btn
+{
+  border: 1px solid #b4b9be;
+  display: inline-block;
+  width: 35px;
+  height: 12px;
+  border-radius: 8px;
+  background: #b4b9be;
+  vertical-align: middle;
+  position: relative;
+  top: 0;
+  left: -4px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 350ms ease;
+}
+
+input[type=checkbox].sk-tgl:checked + .sk-tgl-btn:after
+{
+  background: #0073aa;
+  transform: translate3d(100%, -50%, 0);
+}
+
+input[type=checkbox].sk-tgl + .sk-tgl-btn:after
+{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -3px;
+  transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+
+  background: #999;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -50%, 0);
+}

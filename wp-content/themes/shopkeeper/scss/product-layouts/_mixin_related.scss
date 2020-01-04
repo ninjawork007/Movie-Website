@@ -1,0 +1,86 @@
+//==============================================================================
+// Mixin  / Related Products
+//==============================================================================
+
+@mixin related($title_align, $font_size) 
+{
+	section.related h2,
+	section.up-sells h2 
+	{
+		text-align: $title_align;
+		font-size: $font_size !important;
+		text-transform: uppercase;  
+		margin-bottom: 45px; 
+		
+		@media screen and (min-width: 768px) 
+		{
+			margin-top: 75px;
+		}
+
+		@media screen and (min-width: 1024px) 
+		{
+			margin-top: 100px;
+		} 
+	}
+
+	.single_product_summary_upsell
+	{
+		& + .single_product_summary_related
+		{
+			.related  
+			{
+				h2
+				{
+					margin-top: -20px;
+				}
+			}
+		}
+	}
+
+
+	.related,
+	.up-sells
+	{
+
+		ul.products
+		{
+			li
+			{
+				@media screen and (max-width: 639px)
+				{
+					&:nth-child(n+3)
+					{
+						display: none;
+					}
+				}
+
+				@media screen and (min-width: 640px) and (max-width: 1023px)
+				{
+					&:nth-child(n+4) 
+					{
+						display: none;
+					}
+				}
+			}
+		}
+		
+		.product_after_shop_loop
+		{
+			.product_after_shop_loop_price
+			{
+				span.price
+				{
+					font-size: 13px;
+				}
+			}
+		}
+
+		.large-centered,
+		.medium-centered,
+		.small-centered
+		{
+			float: left !important;
+		}
+	}
+
+}

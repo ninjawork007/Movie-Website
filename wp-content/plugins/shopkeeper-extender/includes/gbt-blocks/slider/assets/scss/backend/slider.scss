@@ -1,0 +1,37 @@
+.gbt_18_sk_editor_slider_wrapper {
+
+	.gbt_18_sk_editor_slider_tabs {
+    	text-align: center;
+	    padding-top: 20px;
+    	margin-bottom: -5px;
+
+		a.slide-tab {
+			height: 25px;
+		    width: 25px;
+		    margin-right: 10px;
+		    position: relative;
+		    cursor: pointer;
+	        padding: 7px 7px 9px 7px;
+		    border-radius: 5px;
+		    outline: 0;
+
+		    &:last-child {
+		    	margin-right: 0;
+		    }
+
+		    &:hover {
+		    	background-color: #555d66;
+		    	svg {
+	    		    fill: #fff;   
+		    	}
+		    }
+
+			svg {
+				width: 25px;
+				height: 25px;
+			    fill: #555d66;
+		        vertical-align: middle;
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Shopkeeper Extender",
+	"version": "1.5.1",
+	"download_url": "https://github.com/getbowtied/shopkeeper-extender/zipball/master",
+
+	"homepage": "https://themeforest.net/item/shopkeeper-ecommerce-wp-theme-for-woocommerce/9553045",
+	"requires": "5.0",
+	"tested": "5.2.3",
+	"last_updated": "2019-09-20 15:00:00",
+
+	"author": "GetBowtied",
+	"author_homepage": "https://getbowtied.com/",
+
+	"sections": {
+		"description": "<p>Companion plugin for the <b>Shopkeeper</b> theme. Extends the functionality by adding theme specific features.</p><h4>Features:</h4><ul><li>Adds 'Social Media' section in Customizer for easy management of links to social media profiles</li><li>Adds header image option for WooCommerce product categories</li><li>Adds 'Additional JS' section in Customizer allowing for site customization with custom JavaScript code</li><li>Adds social sharing buttons for WooCommerce products</li><li>Adds 'Background URL' field for menu items</li></ul><h4>Gutenberg Blocks:</h4><ul><li>Image Slider</li><li>Banner</li><li>Posts Grid</li><li>Product Categories Grid</li><li>Social Media Profiles</li></ul><h4>Widgets:</h4><ul><li>Social Media Profiles</li></ul><h4>WPBakery Page Builder Elements:</h4><ul><li>Slider</li><li>Banner</li><li>Posts Slider</li><li>Product Categories Grid</li><li>Social Media Profiles</li></ul>",
+		"changelog": "<h4>1.5.1</h4><ul><li>WPBakery Page Builder: Fixed Banner element mobile height issue</li><li>Blocks: Fixed Banner block mobile height issue</li></ul><h4>1.5</h4><ul><li>Small maintenance updates</li></ul><h4>1.4.9</h4><ul><li>Fixed: WPBakery Page Builder Slider and Banner elements will now render HTML</li><li>Small maintenance updates</li></ul><h4>1.4.8</h4><ul><li>Fixed: Error showing when updating the plugin</li></ul><h4>1.4.7</h4><ul><li>Adds: Theme-specific 'Background URL' field for menu items (functionality transferred from the theme)</li><li>Small maintenance updates</li></ul><h4>1.4.6</h4><ul><li>Small maintenance updates</li></ul><h4>1.4.5</h4><ul><li>Fixed: Checkbox not showing in Product Categories list in admin area</li></ul><h4>1.4.4</h4><ul><li>'Portfolio' block was moved to 'Shopkeeper Portfolio Addon' plugin</li></ul><h4>1.4.3</h4><ul><li>Fixed: Error showing when WPBakery Page Builder plugin is not active</li></ul><h4>1.4.2</h4><ul><li>Adds: Theme-specific 'Additional JS' section in Customizer allowing for site customization with custom JavaScript code</li><li>Adds: Theme-specific social sharing buttons for WooCommerce products</li></ul><h4>1.4.1</h4><ul><li>Fixed: Error showing upon installation</li><li>Fixed: Customizer toggle options issue</li></ul><h4>1.4</h4><ul><li>Adds: the 'Social Media' section in Customizer allowing for easy management of links to social media profiles. The icons can be turned on/off in the Top Bar, the footer or displayed in pages using the Gutenberg Block or the WPBakery Page Builder element (functionality transferred from the theme).</li><li>Adds: Theme-specific WPBakery Page Builder elements: Slider, Banner, Posts Slider, Product Categories Grid, Social Media profiles (functionality transferred from the theme).</li><li>Adds: Upload header images for WooCommerce product categories (functionality transferred from the theme).</li></ul><h4>1.3.4</h4><ul><li>WordPress 5.1 compatibility improvements</li></ul><h4>1.3.3</h4><ul><li>Fixed: Columns Block displaying issue</li><li>Fixed: Yoast SEO compatibiity issue</li></ul><h4>1.3.2</h4><ul><li>Fixed: Localization issues with the Posts Grid Block</li></ul><h4>1.3.1</h4><ul><li>WordPress 5+ compatibility improvements</li><li>Improved styles for theme neutrality </li></ul><h4>1.3</h4><ul><li>WordPress 5+ compatibility improvements</li></ul><h4>1.2</h4><ul><li>Improvement: Compatibility updates for Gutenberg 4.0.0</li></ul><h4>1.1</h4><ul><li>New: Product Count on Product Categories Grid</li></ul><h4>1.0</h4><ul><li>Initial Version</li></ul>"
+	},
+
+	"icons" : {
+		"1x" : "https://raw.githubusercontent.com/getbowtied/shopkeeper-extender/master/core/updater/assets/images/shopkeeper-extender-128x128.png",
+		"2x" : "https://raw.githubusercontent.com/getbowtied/shopkeeper-extender/master/core/updater/assets/images/shopkeeper-extender-256x256.png"
+    },
+
+	"banners": {
+		"low": "https://raw.githubusercontent.com/getbowtied/shopkeeper-extender/master/core/updater/assets/images/shopkeeper-banner-772x250.png",
+		"high": "https://raw.githubusercontent.com/getbowtied/shopkeeper-extender/master/core/updater/assets/images/shopkeeper-banner-1544x500.png"
+	}
+}

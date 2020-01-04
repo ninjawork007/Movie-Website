@@ -1,0 +1,71 @@
+//==============================================================================
+// All Product Layouts / Wishlist
+//==============================================================================
+
+#yith-wcwl-popup-message
+{
+    display:none !important;
+}
+
+.yith-wcwl-add-to-wishlist 
+{
+    margin: 0 0 17px;
+    height: auto; 
+    position: relative;
+    height: auto; 
+
+    .yith-wcwl-add-button
+    {
+        &.show
+        {
+            &:before
+            {
+                content: ""; 
+            }
+
+            a.add_to_wishlist
+            {
+                
+                .add_to_wishlist_text
+                {
+                    
+                    &:before
+                    {
+                        top: 100%;
+                        left: 10px;
+                        border: solid transparent;
+                        content: " ";
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        pointer-events: none;
+                        border-color: rgba(27,27,29,0);
+                        border-top-color: #1b1b1d;
+                        border-width: 4px;
+                    } 
+                }
+
+            }
+        }
+     
+    }
+
+    .yith-wcwl-add-button:before
+    {
+        content: "\f08a";
+    }
+
+   @media screen and (min-width: 768px) 
+   {
+
+        &:after
+        {
+            content: "";
+            width: 50px;
+            height: 1px;
+            display: block;   
+            margin-top: 20px;  
+        }
+   }
+
+}

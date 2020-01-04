@@ -1,0 +1,406 @@
+
+// Fresco Lightbox
+
+.fr-overlay
+{
+	z-index: 9999; 
+}
+
+.fr-content, .fr-content-background
+{
+	max-width: 1550px!important;
+}
+
+.fr-thumbnails-vertical .fr-thumbnails-wrapper
+{
+	margin-top: 0 !important; 
+	top: 10px !important;
+}
+
+.fr-overlay-background
+{
+	opacity: 1 !important; 
+}
+
+.fr-window-skin-fresco.fr-svg .fr-side-previous .fr-side-button-icon
+{
+	background: none;
+	transition: all .5s;
+	opacity: 1; 
+	
+	&:before
+	{
+		font-family: 'Shopkeeper-Icon-Font';
+		content: "\e91c"; 
+		display: block;
+		font-size: 65px; 
+		font-weight: normal;
+		transition: all .5s;
+	} 	
+
+	@media (min-width: 1025px)
+	{
+		transition: all .5s;
+
+		&:hover
+		{
+			transition: all .5s;
+
+			&:before
+			{
+				opacity: .5; 
+			}
+		}
+	}
+}
+
+
+.fr-window-skin-fresco.fr-svg .fr-side-next .fr-side-button-icon
+{
+	background: none;
+	transition: all .5s;
+	opacity: 1; 
+
+	&:before
+	{
+		font-family: 'Shopkeeper-Icon-Font';
+		content: "\e91d"; 
+		display: block;
+		font-size: 65px; 
+		font-weight: normal;
+		transition: all .5s;
+	} 
+
+	@media (min-width: 1025px)
+	{
+		transition: all .5s;
+
+		&:hover
+		{
+			transition: all .5s;
+			
+			&:before
+			{
+				opacity: .5; 
+			}
+		}
+	}
+	
+}
+
+.fr-window-skin-fresco.fr-svg .fr-close .fr-close-icon
+{
+	background: none;
+	transition: all .5s;
+	opacity: 1; 
+	
+	&:before
+	{
+		font-family: 'Shopkeeper-Icon-Font';
+		content: "\e91a"; 
+		display: block;
+		font-size: 45px; 
+		color: #FFF; 
+		transition: all .5s;
+	} 
+
+	&:hover
+	{
+		transition: all .5s;
+		
+		&:before
+		{
+			opacity: .5; 
+		}
+	}
+
+}
+
+
+.fr-position-outside
+{
+	right: 20px !important; 
+}
+
+.fr-close
+{
+	right: 33px !important; 
+}
+
+.fr-side-next
+{
+	right: 42px !important; 
+}
+
+.fr-close
+{
+	top: 20px !important; 
+}
+
+
+.fr-position-outside
+{
+	margin-right: 10px !important; 
+	bottom: 15px !important; 
+}
+
+.fr-thumbnails-horizontal .fr-position-outside
+{
+	bottom: -80px !important; 
+}
+
+.fr-side-previous
+{
+	left: 28px !important; 
+}
+
+.fr-thumbnails-horizontal .fr-pages
+{
+	overflow: visible !important;
+}
+
+.fr-thumbnail-wrapper
+{
+	background: transparent !important; 
+}
+
+.fr-thumbnail-active .fr-thumbnail-wrapper .fr-thumbnail-image
+{
+	opacity: .2 !important;
+}
+
+.fr-thumbnail .fr-thumbnail-image
+{
+	opacity: 1 !important;
+    transition: opacity 0.5s ease;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0) scale(1.0, 1.0);
+}
+
+.fr-thumbnail:hover .fr-thumbnail-image, .fr-thumbnail-active:hover .fr-thumbnail-image {
+    opacity: .2 !important;
+}
+
+.fr-window-skin-fresco .fr-thumbnail-overlay-border
+{
+	border-width: 0 !important;
+}
+
+.fr-window-skin-fresco .fr-thumbnail-wrapper
+{
+	box-shadow: none !important;
+}
+
+
+.fr-thumbnails-side.fr-thumbnails-side-previous,
+.fr-thumbnails-side.fr-thumbnails-side-next
+{
+	display: none !important;
+}
+
+.fr-side
+{
+	width: auto!important;
+	height: auto ;
+	margin: 0 ;   
+}
+
+.fr-window-skin-fresco.fr-svg .fr-side-previous .fr-side-button-icon:before
+{
+	margin-left: -20px; 
+}
+
+.fr-window-skin-fresco.fr-svg .fr-side-next .fr-side-button-icon:before
+{
+	margin-right: -20px; 
+}
+
+.fr-close-background
+{
+	background-color: transparent !important; 
+}
+
+.fr-thumbnail-overlay, .fr-thumbnail-overlay-background, .fr-thumbnail-overlay-border
+{
+	transition: all .5s;
+}
+
+.fr-thumbnail:hover .fr-thumbnail-image, .fr-thumbnail-active:hover .fr-thumbnail-image
+{
+	opacity: .5 !important; 
+}
+
+.fr-thumbnail,
+.fr-thumbnail-image
+{
+	transition: all .5s;
+}
+
+.fr-window-skin-fresco .fr-content-background
+{
+	box-shadow: none !important; 
+}
+
+
+.fr-info-padder
+{
+	padding: 45px !important; 
+}
+
+.fr-caption
+{
+	 
+	&:before
+	{
+		content: "";
+		width: 50px;
+		height: 1px; 
+		margin-right: 20px; 
+		display: inline-block;	
+		vertical-align: super;					    
+	} 
+}
+
+.fr-window-skin-fresco .fr-content-background
+{
+	background: transparent !important; 
+}
+
+.fr-position-background
+{
+	background: transparent !important; 
+}
+
+.fr-info .fr-stroke-color
+{
+	background: transparent !important; 
+}
+
+.single-product .fr-thumbnail-frame
+{
+	width: 60% !important; 
+	left: 20px !important; 
+}
+
+.single-product .fr-window
+{
+	z-index: 999999;
+    background: #fff;
+}
+
+@media only screen and (min-width: 1024px)
+{
+	.fr-info
+	{
+		left: 50% !important;
+		margin-left: -25%;  
+		max-width: 50%; 
+	}
+}
+
+.fr-position-outside .fr-position-text, .fr-position-inside .fr-position-text
+{
+	text-shadow: none !important;
+}
+
+.fr-window-skin-fresco .fr-thumbnail-active .fr-thumbnail-wrapper
+{
+	box-shadow: none !important;
+}
+
+.fr-thumbnail-loading
+{
+	// display: none !important;
+}
+
+.fr-thumbnail-spinner-spin 
+{
+	display: none !important;
+}
+
+
+.fr-thumbnail-spinner
+{
+	display: block !important;
+}
+
+.fr-spinner div.fr-spin-1 {  display: none !important; }
+.fr-spinner div.fr-spin-2 {  display: none !important; }
+.fr-spinner div.fr-spin-3 {  display: none !important; }
+.fr-spinner div.fr-spin-4 {  display: none !important; }
+.fr-spinner div.fr-spin-5 {  display: none !important; }
+.fr-spinner div.fr-spin-6 {  display: none !important; }
+.fr-spinner div.fr-spin-7 {  display: none !important; }
+.fr-spinner div.fr-spin-8 {  display: none !important; }
+.fr-spinner div.fr-spin-9 {  display: none !important; }
+.fr-spinner div.fr-spin-10 {  display: none !important; }
+.fr-spinner div.fr-spin-11 {  display: none !important; }
+.fr-spinner div.fr-spin-12 {  display: none !important; }
+
+.fr-spinner 
+{
+	background: #FFF !important;
+	width: auto;
+	height: auto; 
+	position: fixed;
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+    left: 50% !important;
+    margin-right: -26px;
+}
+
+@media (max-width: 500px) and (orientation: portrait), (max-height: 414px) and (orientation: landscape)
+{
+	.fr-side
+	{
+		.fr-side-button
+		{
+			width: auto;
+			height: auto;
+		}
+
+	}
+
+}
+
+@media (max-width: 1024px)
+{
+	.fr-side-previous
+	{
+		left: 42px !important;
+	}
+	
+}
+
+@media (max-width:767px)
+{
+	.fr-content, .fr-content-background
+	{
+		top: 0 !important;
+	}
+
+	.fr-ui-fullclick.fr-type-video .fr-container
+	{
+		padding: 0 !important;
+	}
+
+	.fr-ui-fullclick.fr-type-video .fr-content-background
+	{
+		width: 100% !important; 
+	}
+
+	.fr-ui-fullclick.fr-type-video .fr-content
+	{
+		width: 100% !important;
+		left: 0 !important;
+		height: 45% !important;
+	}
+
+	.fr-showing-type-youtube .fr-close.fr-close-fullclick
+	{
+		top: 30px !important; 
+	}
+}
+
+// Youtube Video

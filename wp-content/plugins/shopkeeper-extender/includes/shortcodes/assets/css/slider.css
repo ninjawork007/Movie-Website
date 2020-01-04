@@ -1,0 +1,146 @@
+.shortcode_getbowtied_slider {
+  height: 100vh;
+  margin-bottom: 2.5rem; }
+  .shortcode_getbowtied_slider .swiper-button-prev,
+  .shortcode_getbowtied_slider .swiper-button-next,
+  .shortcode_getbowtied_slider .quickview-pagination {
+    display: none; }
+  .shortcode_getbowtied_slider .swiper-slide {
+    background-size: cover !important;
+    text-align: center;
+    position: relative;
+    display: table; }
+    .shortcode_getbowtied_slider .swiper-slide .slider-content {
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      padding: 0 15px; }
+      @media screen and (min-width: 1024px) {
+        .shortcode_getbowtied_slider .swiper-slide .slider-content {
+          padding: 0; } }
+    .shortcode_getbowtied_slider .swiper-slide h2 {
+      font-size: 50px;
+      line-height: 1.2 !important; }
+    .shortcode_getbowtied_slider .swiper-slide h2 {
+      margin: 0 10% 25px 15%; }
+    .shortcode_getbowtied_slider .swiper-slide p,
+    .shortcode_getbowtied_slider .swiper-slide .button {
+      margin-bottom: 40px; }
+      @media screen and (min-width: 1024px) {
+        .shortcode_getbowtied_slider .swiper-slide p,
+        .shortcode_getbowtied_slider .swiper-slide .button {
+          margin: 0 10% 40px 15%; } }
+    .shortcode_getbowtied_slider .swiper-slide p {
+      font-size: 14px; }
+    .shortcode_getbowtied_slider .swiper-slide .button {
+      margin-top: 40px; }
+    .shortcode_getbowtied_slider .swiper-slide .fullslidelink {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2; }
+  @media only screen and (min-width: 64.063em) {
+    .shortcode_getbowtied_slider .swiper-button-prev {
+      background: none;
+      background-color: transparent;
+      font-size: 60px;
+      height: auto;
+      width: auto;
+      left: -50px;
+      display: block;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+    .shortcode_getbowtied_slider .swiper-button-next {
+      background: none;
+      background-color: transparent;
+      font-size: 60px;
+      height: auto;
+      width: auto;
+      right: -50px;
+      display: block;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+    .shortcode_getbowtied_slider .swiper-slide .slider-content-wrapper {
+      width: 50%;
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0 75px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    .shortcode_getbowtied_slider .swiper-slide.left-align .slider-content-wrapper {
+      float: left;
+      text-align: left; }
+    .shortcode_getbowtied_slider .swiper-slide.right-align .slider-content-wrapper {
+      float: right;
+      text-align: right; }
+    .shortcode_getbowtied_slider .swiper-slide.center-align .slider-content-wrapper {
+      float: none;
+      padding: 0;
+      text-align: center; }
+    .shortcode_getbowtied_slider .swiper-slide.center-align p,
+    .shortcode_getbowtied_slider .swiper-slide.center-align .button {
+      margin-left: 0;
+      margin-right: 0; }
+    .shortcode_getbowtied_slider .swiper-slide.center-align h2 {
+      margin: 0 0 25px 0; }
+    .shortcode_getbowtied_slider:hover .swiper-button-prev i,
+    .shortcode_getbowtied_slider:hover .swiper-button-next i {
+      -webkit-transition: all ease .5s;
+      -o-transition: all ease .5s;
+      transition: all ease .5s; }
+      .shortcode_getbowtied_slider:hover .swiper-button-prev i:hover,
+      .shortcode_getbowtied_slider:hover .swiper-button-next i:hover {
+        opacity: .5; }
+    .shortcode_getbowtied_slider:hover .swiper-button-prev {
+      left: 30px;
+      margin-top: -36px; }
+    .shortcode_getbowtied_slider:hover .swiper-button-next {
+      right: 30px;
+      margin-top: -36px; }
+    .shortcode_getbowtied_slider .shortcode-slider-pagination {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 80px;
+      z-index: 9999;
+      width: 100%;
+      text-align: center; }
+      .shortcode_getbowtied_slider .shortcode-slider-pagination .swiper-pagination-bullet {
+        margin: 0 10px;
+        background: none;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+        width: auto;
+        height: auto;
+        font-size: 13px;
+        font-weight: bold;
+        counter-increment: slideNum;
+        opacity: .5; }
+        .shortcode_getbowtied_slider .shortcode-slider-pagination .swiper-pagination-bullet:before {
+          content: "0" counter(slideNum); }
+        .shortcode_getbowtied_slider .shortcode-slider-pagination .swiper-pagination-bullet:after {
+          content: "";
+          height: 1px;
+          width: 0;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 10px 0 20px;
+          -webkit-transition: all ease-in .5s;
+          -o-transition: all ease-in .5s;
+          transition: all ease-in .5s; }
+        .shortcode_getbowtied_slider .shortcode-slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+          background: none;
+          opacity: 1; }
+          .shortcode_getbowtied_slider .shortcode-slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
+            content: "";
+            height: 1px;
+            width: 50px;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 10px 0 20px; } }

@@ -1,0 +1,301 @@
+//==============================================================================
+// Mixin Woocommerce Tabs
+//==============================================================================
+
+@mixin woocommerce_tabs($align, $font_size) 
+{
+	.woocommerce-tabs 
+	{
+		padding-top: 80px; 
+		
+		.panel
+		{
+			margin: 0 !important;
+
+				> h2:first-child
+				{
+					display: none;
+				}	
+
+				.large-8
+				{
+					> h2:first-child
+					{
+						display: none;
+					}
+				}	
+			
+			&#tab-additional_information
+			{
+				
+				table.shop_attributes
+				{
+					border-top: none;
+					margin-top: -5px;
+					margin-bottom: -2px;
+					
+					tr:last-child
+					{
+						border-bottom: none;
+						
+						td
+						{
+							border-bottom: none;
+						}
+					}
+
+					th,
+					td
+					{
+						font-size: 1rem;
+						font-weight: normal; 
+					}
+
+					th
+					{
+						width: 110px;
+						padding: 11px 20px 11px 0;
+						border: none;
+					}
+
+					td
+					{
+						padding: 11px 0px 11px;
+						font-style: normal;
+						border: none;
+					}
+
+					p
+					{
+						padding: 0;
+					}
+
+					.alt
+					{
+						td,
+						th
+						{
+							background: none!important;
+						}
+					}
+				}
+			}
+
+			#reviews
+			{
+				margin-top: 24px;
+				
+				#comment
+				{
+					height: 140px; 
+				}
+				.star-rating
+				{
+					font-size: 10px;
+					top: 4px;
+					margin-right: -70px;
+				}
+
+				.woocommerce-Reviews-title
+				{
+					font-size: 21px;
+				}
+
+				h2
+				{
+					margin: 0 0 45px;
+				}
+
+				.comment-metadata
+				{
+					margin-bottom: 16px;
+					margin-top: -3px;
+				}
+
+				#comments
+				{
+					ol.commentlist
+					{
+						margin: 0px 0 30px;
+						width: 100%;
+						background: none;
+						list-style: none;
+						
+						li
+						{
+							padding: 0;
+							margin: 25px 0 30px;
+							border: 0;
+							position: relative;
+							background: 0;
+							border: 0;
+							
+							&:first-child
+							{
+								margin-top: 0px;
+							}
+
+							img.avatar
+							{
+								background: none;
+								border: 0;
+								margin: 0;
+								line-height: 1;
+								position: absolute;
+								float: none;
+								left: 0;
+								top: -5px;
+								width: 50px;
+								height: 50px;
+								padding: 0;
+								overflow: hidden;
+								-webkit-border-radius: 70px;
+								-moz-border-radius: 70px;
+								border-radius: 70px;
+							}
+
+							.comment-text
+							{
+								margin: 0 70px 0 70px;
+								border: 0;
+								-webkit-border-radius: 0;
+								border-radius: 0;
+								padding: 0;
+								
+								.verified
+								{
+									color: #a1a1a1;
+									display: inline-block;
+								}
+							}
+
+							.description
+							{
+									margin: 11px -70px 0 0;
+							}
+						}
+					}
+				}
+
+				#review_form_wrapper
+				{
+					#review_form
+					{
+						#respond
+						{
+							.comment-form-rating
+							{
+								margin: 0 0 20px;
+							}
+
+							p
+							{
+								.comment-form-author
+								{
+									margin-bottom: 0;
+								}
+
+								.comment-form-email
+								{
+									margin-bottom: 15px;
+								}
+
+								.comment-form-comment
+								{
+									margin-top: -30px; 
+								}
+							}
+
+							input#submit
+							{
+								font-size: 13px;
+								
+								&:hover
+								{
+									color: #FFF; 
+								} 
+							}
+
+							form
+							{
+								.form-row-first.comment-form-author,
+								.form-row-last.comment-form-email
+								{
+									width: 100%; 
+								}
+							}
+						}
+
+						
+					}
+				}
+
+				h3
+				{
+					font-size: 1.125rem;
+				}
+
+				span.comment-reply-title 
+				{
+					font-size: 1.3125rem;
+					line-height: 1.4;
+					font-weight: 700;
+					margin-bottom: 7px;
+					text-align: left;
+				}
+
+			}
+
+		}
+			
+		ul.tabs
+		{
+			padding-left: 0 !important;
+			margin-bottom: 50px !important; 
+			text-align: $align !important;
+			
+			&:before
+			{
+				display: none !important;
+			}
+
+			li
+			{
+				border: none !important;
+				background: none !important; 
+				border-radius: 0px !important; 
+				padding: 0 !important;
+				margin: 0 15px !important;
+				font-size: $font_size;
+				
+				a
+				{
+					text-transform: uppercase;
+				}
+				
+				@media #{$large-up} {
+					&:first-child
+					{
+						margin-left: 0 !important;
+					}
+				}
+
+				
+				&.active
+				{
+					background: none !important;
+					border-top: 3px solid !important; 
+				}
+					
+				&:before,
+				&:after
+				{
+					display: none !important;
+				}
+			}
+			
+		}
+		
+	}
+
+}

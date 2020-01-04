@@ -1,0 +1,47 @@
+// WooCommerce Product Add-ons By WooCommerce
+
+.product-addon
+{
+	border-bottom: 2px solid rgba(84, 84, 84, 0.1);
+   	padding-bottom: 35px;
+   	margin-bottom: 40px !important;
+
+	h3.addon-name
+	{
+		font-size: 17px;
+		line-height: 24px;
+	}
+
+	abbr.required
+	{
+		border: none;
+	}
+
+	div.addon-description p
+	{
+	   font-size: 12px;
+	   font-style: normal;
+	}
+
+	input.addon-radio,
+	input.addon-checkbox
+	{
+		margin-bottom: 0;
+	}
+
+	label
+	{
+		margin: 0;
+	}
+}
+
+.product-addon-totals
+{
+	font-size: 13px;
+	text-transform: uppercase;
+
+	dd
+	{
+	    padding-bottom: 25px;
+	}
+}

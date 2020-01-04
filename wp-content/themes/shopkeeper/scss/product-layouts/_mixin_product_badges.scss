@@ -1,0 +1,33 @@
+//==============================================================================
+// Mixin Product Badges
+//==============================================================================
+
+@mixin product_badges($mobile_top, $mobile_left, $desktop_top, $desktop_left) 
+{
+    .product-badges
+    {
+        position: absolute;
+        top: $mobile_top;
+        margin-left: $mobile_left;
+        z-index: 998;
+
+        @media screen and (min-width: 1024px) 
+        {
+            z-index: 999;
+            top: $desktop_top;
+            margin-left: $desktop_left;
+        }
+
+        .product-sale
+        {
+            .onsale
+            {
+                position: inherit;
+                top: inherit;
+                margin-right: 0;
+                display: inline-block;
+            }
+        }   
+    }
+
+}

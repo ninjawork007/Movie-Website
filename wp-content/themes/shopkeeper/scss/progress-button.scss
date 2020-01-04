@@ -1,0 +1,107 @@
+.ajax_add_to_cart.progress-btn
+{
+    cursor: pointer;
+
+    &:after
+    {
+        display: none;
+    }
+
+    .checked
+    {
+        position: absolute;
+        top: 5px;
+        left: 47%;
+        opacity: 0;
+        height: 0;
+        transition: all 0.3s ease;
+
+        &:after
+        {
+            font-size: 0;
+            font-family: WooCommerce;
+            content:'\e017';
+        }
+    }
+
+    &.check
+    {
+        .btn
+        {
+            opacity: 0;
+            font-size: 0;
+        }
+
+        .checked
+        {
+            opacity: 1;
+            height: auto;
+            transition: all 0.3s ease;
+
+            @media all and (max-width: 1024px) {
+                margin-top: 12px;
+            }
+            
+            &:after
+            {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .btn
+    {
+        opacity: 1;
+        font-size: 13px;
+        transition: all 0.3s ease;
+    }
+
+    &.active
+    {
+        opacity: 1 !important;
+        pointer-events: none;
+        cursor: initial !important;
+
+        @media all and (min-width: 1024px) {
+            margin-top: 11px !important;
+        }
+
+        .progress
+        {
+            opacity: 1;
+            animation: progress-anim 2s ease 0s;
+        }
+
+        .btn
+        {
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+    }
+
+    .progress
+    {
+        width: 0%;
+        z-index: 5;
+        background: rgba(0, 0, 0, 0.15);
+        opacity: 0;
+        transition: all 0.3s ease;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@keyframes progress-anim {
+    0% {
+        width: 0%;
+    }   
+    75% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}  

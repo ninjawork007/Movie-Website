@@ -1,0 +1,650 @@
+.select2-hidden-accessible {
+    margin: -1px !important;
+}
+
+.select2-container--default .select2-selection--single {
+    font-size: 14px;
+    outline: 0;
+    border-radius: 0px;
+}
+
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+    left: 1px !important;
+    right: auto !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+    color: #999;
+    margin-top: 5px;
+    float: left;
+}
+
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+    float: right;
+}
+
+.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.off-canvas-wrapper .select2-container,
+body > .select2-container {
+    z-index: 9999;
+}
+
+.select2-search--dropdown:after {
+  font-family: 'Shopkeeper-Icon-Font';
+  content: "\e907";
+  right: 14px;
+  top: 15px;
+  position: absolute;
+  font-weight: normal;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+span.select2.select2-container.select2-container--default {
+    z-index: 990;
+}
+
+/* select2 */
+
+.big-select:hover
+{
+  background-color:transparent;
+}
+
+.big-select:focus
+{
+  outline: none;
+}
+.catalog-ordering .select2-container.orderby a,
+.catalog-ordering .select2-container span
+{
+  text-transform: uppercase;
+  font-size: 10px;
+
+  @media screen and (min-width: 640px) {
+    font-size: 13px;
+  }
+}
+
+.select2-container:not(.orderby),
+.big-select,
+.select.big-select
+{
+  font-size: 1.5rem !important;
+  border: none;
+  background-color:transparent;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding:0;
+  margin:0;
+  width:auto !important;
+  font-weight: normal;
+  opacity:1;
+  width: auto;
+  line-height: 1;
+  height: 40px;
+}
+
+
+select.big-select
+{
+    font-size: 13px !important;
+    font-weight: bold;
+    padding: 9px 11px 11px;
+    text-transform: uppercase;
+    width: 100% !important;
+  max-width: 320px;
+}
+
+.variations select.big-select
+{
+  font-size: 1.5rem !important;
+  text-transform: none;
+  padding: 0 20px 0 0;
+  width: auto !important;
+}
+
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices,
+.select2-container .select2-choice
+{
+  background: none;
+  border: none;
+  filter:none;
+  font-weight: 900;
+  padding: 0;
+  padding-right: 26px;
+  box-shadow: none;
+  height: auto;
+  line-height: 1;
+}
+
+.select2-container .select2-choice > .select2-chosen
+{
+  margin: 0;
+}
+
+.select2-container .select2-choice .select2-arrow
+{
+  background: none;
+  background-image: none;
+  filter:none;
+  border: none;
+  border-radius: 0;
+  font-size: 0.692em;
+  line-height: 1em;
+  box-shadow: none;
+}
+
+.select2-container--default .select2-selection--single
+{
+  font-size: 14px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow
+{
+  right: 10px !important;
+}
+
+.widget .select2-container--default .select2-selection--single .select2-selection__arrow
+{
+  top: 2px !important;
+}
+
+.select2-container .select2-choice .select2-arrow:before,
+.catalog-ordering .select2-container .selection .select2-selection__arrow:before
+{
+  content: "\e91b";
+  display: block;
+  font-family: Shopkeeper-Icon-Font;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.select2-search
+{
+  padding-top: 5px;
+
+  .select2-search__field
+  {
+    color: #444;
+    background-color: #fafafa;
+    background-image: none;
+
+    :focus
+    {
+      background-color: #fafafa;
+    }
+  }
+}
+
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true]
+{
+  background-color: #fff;
+}
+
+.select2-search input,
+.select2-search__field
+{
+  padding: 6px 38px 7px 8px !important;
+}
+
+.select2-results
+{
+  max-height: initial;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+
+  .select2-results__option
+  {
+    font-size: 14px;
+    outline: 0 !important;
+
+    :active
+    {
+      outline: 0 !important;
+    }
+  }
+}
+
+.select2-drop,
+.select2-dropdown {
+  min-width: 250px !important;
+  border: none;
+  margin-top: 9px;
+  margin-left: -15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+}
+
+.select2-container--open .select2-dropdown
+{
+  left: 15px !important;
+}
+
+.select2-drop.select2-drop-above
+{
+  margin-bottom: 6px;
+}
+
+.select2-drop.select2-drop-above.select2-drop-active
+{
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.select2-results .select2-result-label
+{
+  padding: 3px 16px 4px;
+}
+
+.select2-offscreen, .select2-offscreen:focus {
+    border: 0 none !important;
+    clip: rect(0px, 0px, 0px, 0px) !important;
+    height: 26px !important;
+    left: 0 !important;
+    margin: 0 !important;
+    outline: 0 none !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 1px !important;
+}
+
+
+.woocommerce-ordering select.orderby
+{
+  max-width: none;
+  border: none;
+  vertical-align: middle;
+  text-transform: uppercase;
+  line-height: 24px;
+  height: auto !important;
+  padding: 0 0.5rem;
+  direction: rtl;
+}
+
+.select2-container.topbar-language-switcher,
+.select2-container.wcml_currency_switcher
+{
+    font-size: 0.8125rem !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.select2-container.topbar-language-switcher,
+.select2-container.wcml_currency_switcher
+{
+  margin-right: 23px;
+}
+
+.catalog-ordering
+{
+  line-height: 24px;
+  float: right;
+  outline: 0 !important;
+
+  span.select2-container
+  {
+    span
+    {
+      border: none;
+    }
+
+    .selection
+    {
+      font-weight: bold;
+      outline: 0 !important;
+
+      span
+      {
+        outline: 0 !important;
+      }
+
+      .select2-selection__rendered
+      {
+        padding-right: 26px;
+        padding-left: 0px;
+      }
+
+      .select2-container--default,
+      .select2-selection--single
+      {
+        background: transparent !important;
+      }
+
+      .select2-selection__clear
+      {
+        display: none;
+      }
+
+      .select2-selection__arrow
+      {
+        top: 1px !important;
+          right: 1px !important;
+
+        &:before
+        {
+          font-size: 18px;
+            line-height: 22px;
+        }
+
+        b
+        {
+          display: none;
+        }
+      }
+    }
+  }
+
+  select.orderby
+  {
+    padding-right: 25px;
+
+    &:hover
+    {
+      background-color: transparent;
+    }
+
+    @media screen and (min-width: 1024px)
+    {
+      font-size: 13px;
+    }
+  }
+}
+
+.select2-results
+{
+  .select2-results__options
+  {
+    .select2-results__option
+    {
+      color: #000;
+      padding: 3px 16px 4px;
+    }
+
+    .select2-results__option--highlighted
+    {
+      color: #fff;
+    }
+
+    .select2-results__option[aria-selected=true]
+    {
+      background-color: transparent;
+    }
+  }
+}
+
+.catalog-ordering .select2-container
+{
+  line-height: 24px;
+  height: auto;
+  float: right;
+
+  &.orderby
+  {
+    a
+    {
+      line-height: 24px;
+    }
+  }
+
+}
+
+.select2-container .select2-choice .select2-arrow
+{
+  top: 5px;
+}
+
+.select2-container.topbar-language-switcher,
+.select2-container.wcml_currency_switcher
+{
+  height: 43px;
+  line-height: 43px;
+  padding-top: 15px;
+}
+
+.catalog-ordering .select2-container .select2-choice
+{
+  font-weight: bold;
+}
+
+.catalog-ordering .select2-container .select2-choice .select2-arrow
+{
+  font-size: 18px;
+    line-height: 24px;
+}
+
+.select2-container.topbar-language-switcher .select2-choice .select2-arrow,
+.select2-container.wcml_currency_switcher .select2-choice .select2-arrow
+{
+  font-size: 13px;
+    line-height: 1em;
+}
+
+.catalog-ordering .select2-container .select2-choice .select2-arrow:before
+{
+  display: block;
+  line-height: 13px;
+}
+
+.woocommerce.archive .select2-drop,
+.woocommerce-page.archive .select2-drop {
+  margin-top: 1px;
+}
+
+.variations .select2-container
+{
+  padding-top: 9px;
+}
+
+.variations .select2-container .select2-choice > .select2-chosen
+{
+  line-height: 20px;
+}
+
+.variations .select2-container .select2-choice .select2-arrow:before
+{
+  line-height: 23px;
+}
+
+.select2-search input.select2-active
+{
+  background: none;
+}
+
+.select2-container.select2-container-disabled,
+.select2-container.select2-container-disabled .select2-choice,
+.select2-container.select2-container-disabled .select2-choice .select2-arrow
+{
+  background: none;
+  border: none;
+}
+
+/*Select2 on Checkout and MyAccount*/
+
+#billing_country_field,
+#billing_state_field,
+#calc_shipping_country_field,
+#calc_shipping_state_field,
+#shipping_country_field,
+#shipping_state_field,
+.woocommerce-widget-layered-nav-dropdown
+{
+  outline: 0 !important;
+  text-transform: none;
+    text-align: left;
+
+  .select2-container--default
+  {
+    width: 100% !important;
+    border-radius: 0px !important;
+    border: none !important;
+  }
+
+  .select2-container
+  {
+    width: 100% !important;
+    border: 1px solid;
+  }
+
+  .select2-selection--single
+  {
+    outline: 0 !important;
+    border-radius: 0px !important;
+  }
+
+  .select2-selection
+  {
+    outline: 0 !important;
+  }
+
+  .select2-selection__rendered,
+  .select2-selection__placeholder
+  {
+    outline: 0 !important;
+    font-size: 0.875rem;
+      color: #444 !important;
+        font-weight: 900;
+        line-height: 40px !important;
+  }
+
+  .select2-selection__clear
+  {
+    display: none;
+  }
+
+  .select2-selection__arrow
+  {
+    border: none !important;
+
+    :before
+    {
+      content: "\e91b";
+        display: block;
+        font-family: Shopkeeper-Icon-Font;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    b
+    {
+      margin-left: -9px !important;
+      margin-top: -17px;
+      border: none !important;
+    }
+  }
+
+  :hover
+  {
+    .select2-selection__rendered
+    {
+      opacity: 0.8;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition:.5s;
+    }
+  }
+}
+
+#billing_country_field,
+#billing_state_field,
+#calc_shipping_country_field,
+#calc_shipping_state_field,
+#shipping_country_field,
+#shipping_state_field {
+
+  .select2-selection
+  {
+    outline: 0 !important;
+    height: 40px;
+  }
+
+  .select2-container--default
+  {
+    height: 42px !important;
+  }
+}
+
+.woocommerce-widget-layered-nav-dropdown {
+  .select2-selection--multiple
+  {
+    border-radius: 0px !important;
+
+    .select2-selection__clear
+    {
+      display: none;
+    }
+  }
+
+  .select2-container--default
+  {
+    height: auto;
+  }
+
+  .select2-selection--single
+  {
+    height: 42px !important;
+
+    .select2-selection__clear
+    {
+      display: block !important;
+      padding-right: 10px;
+        margin-top: -1px;
+    }
+  }
+}
+
+.country_select .select2-container,
+.state_select .select2-container
+{
+  outline: 0 !important;
+  display: block;
+    width: 100% !important;
+  border-style: solid;
+    border-width: 1px;
+  background: none repeat scroll 0 0 #fff;
+
+  height: auto;
+}
+
+.country_select.select2-container .select2-choice > .select2-chosen,
+.state_select.select2-container .select2-choice > .select2-chosen
+{
+    font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 20px;
+  color: #444;
+  padding: 0.5rem;
+  height: 38px;
+}
+
+.country_select.select2-container .select2-choice .select2-arrow,
+.state_select.select2-container .select2-choice .select2-arrow
+{
+  color: #444;
+  top: 11px;
+}

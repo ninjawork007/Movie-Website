@@ -1,0 +1,25 @@
+[
+  {
+    "demo_name": "Default",
+    "file_path": "shopkeeper.wordpress.xml",
+    "screenshot": "somefile.jpg",
+    "settings": {
+      "reading_settings": {
+        "homepage": "Welcome",
+        "blog": "The Blog"
+      },
+      "woocommerce_pages": {
+        "woocommerce_shop_page_id": "The Shop",
+        "woocommerce_cart_page_id": "Shopping Cart",
+        "woocommerce_checkout_page_id": "Checkout",
+        "woocommerce_myaccount_page_id": "My Account"
+      },
+      "navigation": [
+        {
+          "name": "Main Navigation",
+          "location": "main-navigation"
+        }
+      ]
+    }
+  }
+]

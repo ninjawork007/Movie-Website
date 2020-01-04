@@ -1,0 +1,178 @@
+.shortcode_banner_simple_height {
+
+	@media all and (max-width: 768px) {
+		height: auto !important;
+	}
+
+	cursor:pointer;
+	margin-bottom: 2.5rem;
+	clear:both;
+	position: relative;
+}
+
+.shortcode_banner_simple_height_inner
+{
+    padding:15px;
+    overflow: hidden;
+    position: relative;
+	height: 100%;
+    backface-visibility:hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.shortcode_banner_simple_height_inner:before {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	z-index: 3;
+}
+
+.shortcode_banner_simple_height_inner:hover:before
+{
+	background:rgba(0,0,0,.3);
+}
+
+.shortcode_banner_simple_height_bkg
+{
+    	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+	display: block;
+
+	background-color:#f5f5f5;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	transition: all 1s ease;
+
+	z-index: 2;
+}
+
+.shortcode_banner_simple_height:hover .shortcode_banner_simple_height_bkg
+{
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+.shortcode_banner_simple_height:hover {
+	background-size: 115%;
+}
+
+.shortcode_banner_simple_height_inside {
+	padding:20px;
+	height: 100%;
+	text-align:center;
+	border:2px solid #fff;
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	display: table;
+	width:100%;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 5;
+}
+
+.shortcode_banner_simple_height_content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+
+	position: relative;
+	z-index: 999;
+}
+
+.shortcode_banner_simple_height_inside .banner_title {
+	padding:0;
+	margin:0;
+	font-weight:900;
+	font-size: 38px;
+	line-height: 1.391em;
+}
+
+.shortcode_banner_simple_height_inside .banner_title strong {
+	font-size:28px;
+}
+
+.shortcode_banner_simple_height_inside .banner_title a {
+	text-decoration:underline;
+}
+
+.shortcode_banner_simple_height_inside .banner_subtitle {
+	padding:0;
+	margin:0;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+.shortcode_banner_simple_height_inside .banner_subtitle a {
+	text-decoration:underline;
+}
+
+.shortcode_banner_simple_height_sep {
+	width:20%;
+	height:2px;
+	background:#fff;
+	margin:5px auto;
+}
+
+.shortcode_banner_simple_height_bullet {
+
+	width:180px;
+	height:180px;
+	background:#000;
+
+	border-radius: 50%;
+	text-align:center;
+	display: none;
+	text-transform:uppercase;
+	color:#fff;
+	line-height:1.3em;
+
+	position:absolute;
+	top:50%;
+	margin-top: -90px;
+	right:30px;
+	z-index: 999;
+
+}
+
+.shortcode_banner_simple_height_bullet strong {
+	font-size:18px;
+	line-height:1.5em;
+}
+
+.shortcode_banner_simple_height_bullet span {
+	display: table-cell;
+	vertical-align: middle;
+	padding:20px;
+}
+
+/* min-width 1023px, large screens */
+@media only screen and (min-width: 63.9375em) {
+	.shortcode_banner_simple_height_bullet
+	{
+		display: table;
+	}
+}

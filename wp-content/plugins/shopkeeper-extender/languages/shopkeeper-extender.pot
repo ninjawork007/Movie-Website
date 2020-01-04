@@ -1,0 +1,372 @@
+# Copyright (C) 2018 shopkeeper-extender
+# This file is distributed under the same license as the shopkeeper-extender package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopkeeper Extender\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;i18n;i18n.__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core\n"
+"X-Poedit-SearchPathExcluded-1: includes/vendor\n"
+"X-Poedit-SearchPathExcluded-2: includes/custom-menu\n"
+"X-Poedit-SearchPathExcluded-3: includes/customizer\n"
+"X-Poedit-SearchPathExcluded-4: includes/helpers\n"
+
+#: includes/addons/class-wc-category-header-image.php:68
+#: includes/addons/class-wc-category-header-image.php:158
+#: includes/addons/class-wc-category-header-image.php:256
+msgid "Header"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:72
+#: includes/addons/class-wc-category-header-image.php:163
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:73
+#: includes/addons/class-wc-category-header-image.php:164
+msgid "Remove image"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:97
+#: includes/addons/class-wc-category-header-image.php:190
+msgid "Choose an image"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:99
+#: includes/addons/class-wc-category-header-image.php:192
+msgid "Use image"
+msgstr ""
+
+#: includes/custom-code/class-custom-code.php:100
+msgid "Additional JS"
+msgstr ""
+
+#: includes/custom-code/class-custom-code.php:117
+msgid "Header JavaScript Code"
+msgstr ""
+
+#: includes/custom-code/class-custom-code.php:137
+msgid "Footer JavaScript Code"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:24
+msgid "Banner"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:103
+msgid "Title Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:110
+msgid "Subtitle Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:117
+msgid "Background Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:128
+msgid "Inner Stroke Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:150
+msgid "General Settings"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:158
+msgid "URL"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:169
+msgid "Open link in new tab?"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:185
+msgid "Height"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:196
+msgid "Font Settings"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:208
+#: includes/gbt-blocks/slider/blocks/slide.js:202
+msgid "Title Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:223
+msgid "Subtitle Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:234
+msgid "Inner Stroke"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:246
+msgid "Inner Stroke Thickness"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:257
+#: includes/gbt-blocks/slider/blocks/slide.js:229
+#: includes/gbt-blocks/slider/blocks/slider.js:247
+msgid "Colors"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:320
+#: includes/gbt-blocks/slider/blocks/slide.js:263
+msgid "Add Image"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:336
+#: includes/gbt-blocks/slider/blocks/slide.js:279
+msgid "Remove Image"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:371
+#: includes/gbt-blocks/slider/blocks/slide.js:347
+msgid "Add Title"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:390
+#: includes/gbt-blocks/slider/blocks/slide.js:373
+msgid "Add Subtitle"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:21
+msgid "Product Categories - Grid"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:201
+#: includes/gbt-blocks/posts_grid/block.js:187
+msgid "Update"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:203
+#: includes/gbt-blocks/posts_grid/block.js:189
+msgid "Updating"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:421
+msgid "No categories matching."
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:573
+msgid "Source:"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:576
+msgid "Manually pick"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:579
+msgid "All Categories"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:600
+msgid "Search for categories to display"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:634
+msgid "Selected Products:"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:651
+msgid "Menu Order"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:652
+#: includes/gbt-blocks/posts_grid/block.js:406
+msgid "Alphabetical Ascending"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:653
+#: includes/gbt-blocks/posts_grid/block.js:407
+msgid "Alphabetical Descending"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:655
+#: includes/gbt-blocks/posts_grid/block.js:411
+msgid "Order By"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:666
+msgid "How many product categories to display?"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:679
+msgid "Parent Categories Only"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:690
+msgid "Hide Empty"
+msgstr ""
+
+#: includes/gbt-blocks/categories_grid/block.js:720
+msgid "Product Count"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:22
+msgid "Posts Grid"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:391
+msgid "Categories:"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:408
+msgid "Date Ascending"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:409
+msgid "Date Descending"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:430
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:461
+msgid "Columns"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:30
+msgid "Slide"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:114
+msgid "Title & Description"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:121
+msgid "Slide Background"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:132
+#: includes/gbt-blocks/slider/blocks/slide.js:399
+msgid "Button Text"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:139
+msgid "Button Background"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:166
+msgid "Slide Link"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:179
+msgid "Slide Button"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:217
+msgid "Description Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:26
+msgid "Slider"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:143
+#: includes/gbt-blocks/slider/blocks/slider.js:225
+msgid "Pagination Bullets"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:155
+#: includes/gbt-blocks/slider/blocks/slider.js:236
+msgid "Navigation Arrows"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:182
+msgid "Full Height"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:199
+msgid "Custom Desktop Height"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:214
+msgid "Number of Slides"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:25
+msgid "Social Media Profiles"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:70
+msgid "Icons Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:80
+#: includes/gbt-blocks/social_media_profiles/block.js:83
+msgid "Icons Color"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:122
+msgid "Setup social profile links under Appearance > Customize > Social Media"
+msgstr ""
+
+#: includes/shortcodes/wp/posts-slider.php:69
+msgid " by "
+msgstr ""
+
+#: includes/shortcodes/wp/posts-slider.php:71
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/shortcodes/wp/posts-slider.php:75
+msgid " on "
+msgstr ""
+
+#: includes/shortcodes/wp/posts-slider.php:77
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: includes/social-media/class-social-media.php:344
+msgid "Top Bar Social Icons"
+msgstr ""
+
+#: includes/social-media/class-social-media.php:363
+msgid "Social Networking Icons"
+msgstr ""
+
+#: includes/social-media/class-social-media.php:373
+msgid "Social Media"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:109
+msgid "Social Sharing Options"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:128
+msgid "Share this product"
+msgstr ""
+
+#: includes/widgets/social-media.php:18
+msgid "Shopkeeper Social Media Profiles"
+msgstr ""
+
+#: includes/widgets/social-media.php:19
+msgid "A widget that displays Social Media Profiles"
+msgstr ""
+
+#: includes/widgets/social-media.php:57
+msgid "Get Connected"
+msgstr ""
+
+#: includes/widgets/social-media.php:62
+msgid "Title:"
+msgstr ""

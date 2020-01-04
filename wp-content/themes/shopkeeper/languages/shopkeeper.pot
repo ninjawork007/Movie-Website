@@ -1,0 +1,507 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Shopkeeper\n"
+"POT-Creation-Date: 2019-08-14 10:58+0300\n"
+"PO-Revision-Date: 2019-08-14 10:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+"X-Poedit-SearchPathExcluded-2: woocommerce\n"
+"X-Poedit-SearchPathExcluded-3: settings\n"
+"X-Poedit-SearchPathExcluded-4: scss\n"
+"X-Poedit-SearchPathExcluded-5: css\n"
+"X-Poedit-SearchPathExcluded-6: images\n"
+"X-Poedit-SearchPathExcluded-7: inc/foundation\n"
+"X-Poedit-SearchPathExcluded-8: inc/tgm\n"
+
+#: 404.php:12
+msgid "Oops 404 again! That page can't be found."
+msgstr ""
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:21
+#, php-format
+msgid "One reply on “%2$s“"
+msgid_plural "%1$s replies on “%2$s“"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:28 comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:29 comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30 comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:72
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:76
+msgid "Name"
+msgstr ""
+
+#: comments.php:78
+msgid "Email Address"
+msgstr ""
+
+#: comments.php:80
+msgid "Website"
+msgstr ""
+
+#: comments.php:86
+msgid "Message"
+msgstr ""
+
+#: content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:14
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: content-none.php:15
+msgid "Get started here"
+msgstr ""
+
+#: content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: footer.php:197 header-topbar.php:31
+msgid "Logout"
+msgstr ""
+
+#: footer.php:244
+msgid "What are you looking for?"
+msgstr ""
+
+#: functions.php:160
+msgid "Top Bar Navigation"
+msgstr ""
+
+#: functions.php:161
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:182
+msgid "Secondary Navigation (Off-Canvas)"
+msgstr ""
+
+#: functions.php:188
+msgid "Centered Header - Left Navigation"
+msgstr ""
+
+#: functions.php:189
+msgid "Centered Header - Right Navigation"
+msgstr ""
+
+#: functions.php:322
+msgid "Load More Items"
+msgstr ""
+
+#: functions.php:323
+msgid "Loading"
+msgstr ""
+
+#: functions.php:324
+msgid "No more items available."
+msgstr ""
+
+#: functions.php:395
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:405
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:415
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:425
+msgid "Right Offcanvas Sidebar"
+msgstr ""
+
+#: functions.php:763
+msgid "Continue shopping"
+msgstr ""
+
+#: functions.php:1082
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: image.php:42
+msgid "Previous"
+msgstr ""
+
+#: image.php:46
+msgid "Next"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:32
+#: inc/admin/wizard/class-gbt-install-wizard.php:33
+msgid "Theme Setup"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:53
+msgid "Introduction"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:58
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:63
+msgid "Demo Import"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:68
+msgid "Ready!"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:211
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:234
+msgid "'s"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:234
+msgid "Theme Setup Wizard"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:237
+msgid "Get Started"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:239
+msgid "The quickest way to setup the theme"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:239
+msgid "and start working on your site."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:254
+msgid "Plugin Installation"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:255
+msgid "Install the required plugins before importing the demo content."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:263
+msgid "Recommended"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:269
+#: inc/admin/wizard/class-gbt-install-wizard.php:384
+msgid "Skip"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:270
+#: inc/admin/wizard/class-gbt-install-wizard.php:386
+msgid "Install"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:342
+msgid "Install Now"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:343
+msgid "Update Now"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:344
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:349
+msgid "Active"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:371
+msgid "Demo Content Import"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:372
+msgid "Start with pre-built page layouts, dummy product pages,"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:372
+msgid "blog posts and widgets."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:379
+msgid ""
+"Please make sure Visual Composer and WooCommerce are installed and activated "
+"before importing the demo content."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:388
+msgid "Go back"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:393
+msgid "Importing, please wait!"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:413
+msgid "Setup has been completed successfully!"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:414
+msgid "View Site"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:415
+msgid "You should be able to start working on your site now."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:416
+msgid "Best of luck with your project!"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:421
+msgid "What's next?"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:428
+msgid "Customize the theme"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:434
+msgid "WooCommerce Setup Wizard"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:450
+msgid "Activate Theme Updates"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:453
+msgid "Help Center / Support"
+msgstr ""
+
+#: inc/demo/ocdi-setup.php:97
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/demo/ocdi-setup.php:98
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/metaboxes/product.php:13
+msgid "Product Options"
+msgstr ""
+
+#: inc/metaboxes/product.php:46
+msgid "Fullscreen Description"
+msgstr ""
+
+#: inc/notifications/classic/class-classic-notifications.php:58
+#: inc/notifications/custom/class-custom-notifications.php:116
+msgid "View cart"
+msgstr ""
+
+#: inc/notifications/classic/class-classic-notifications.php:59
+#: inc/notifications/custom/class-custom-notifications.php:117
+msgid "has been added to your cart."
+msgstr ""
+
+#: inc/search/class-search.php:127
+msgid "Search products&hellip;"
+msgstr ""
+
+#: inc/search/class-search.php:218
+msgid "Sale!"
+msgstr ""
+
+#: inc/templates/post-meta.php:10 inc/templates/post-meta.php:45
+msgid "Sticky"
+msgstr ""
+
+#: inc/templates/post-meta.php:15 inc/templates/post-meta.php:49
+msgid " by "
+msgstr ""
+
+#: inc/templates/post-meta.php:17 inc/templates/post-meta.php:51
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/templates/post-meta.php:33
+msgid " in "
+msgstr ""
+
+#: inc/templates/post-meta.php:76 inc/templates/post-meta.php:94
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: inc/templates/post-meta.php:80
+msgid " on "
+msgstr ""
+
+#: inc/templates/post-meta.php:82 inc/templates/post-meta.php:100
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: inc/templates/template-tags.php:66
+msgid "Previous Reading"
+msgstr ""
+
+#: inc/templates/template-tags.php:70
+msgid "Next Reading"
+msgstr ""
+
+#: inc/templates/template-tags.php:80
+msgid "Older posts"
+msgstr ""
+
+#: inc/templates/template-tags.php:86
+msgid "Newer posts"
+msgstr ""
+
+#: inc/templates/template-tags.php:143
+msgid "Pingback:"
+msgstr ""
+
+#: inc/templates/template-tags.php:143 inc/templates/template-tags.php:183
+msgid "Edit"
+msgstr ""
+
+#: inc/templates/template-tags.php:158
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/templates/template-tags.php:161
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/templates/template-tags.php:166
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/woocommerce/quick_view.php:45
+msgid "Quick View"
+msgstr ""
+
+#: index-layout-1.php:50 index-layout-2.php:53 index-layout-3.php:55
+msgid "Category Archives"
+msgstr ""
+
+#: index-layout-1.php:120 index-layout-2.php:123 index-layout-3.php:125
+msgid "All"
+msgstr ""
+
+#: index-layout-1.php:176 index-layout-1.php:180 index-layout-1.php:184
+#: index-layout-2.php:199 index-layout-3.php:200
+msgid "Continue Reading"
+msgstr ""
+
+#: search.php:10
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:13
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Meta"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Shopkeeper"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://shopkeeper.wp-theme.design/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"When you start with an awesome product you can create amazing things! Built "
+"with the eCommerce functionality in mind, Shopkeeper is a fully responsive "
+"Premium WooCommerce Theme with great design and extensive functionality."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Get Bowtied"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.getbowtied.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Boxed Layout"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blank"
+msgstr ""

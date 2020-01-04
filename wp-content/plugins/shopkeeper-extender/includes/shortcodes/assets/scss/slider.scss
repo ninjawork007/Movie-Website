@@ -1,0 +1,252 @@
+.shortcode_getbowtied_slider 
+{
+	height: 100vh;
+	margin-bottom: 2.5rem;
+
+	.swiper-button-prev,
+	.swiper-button-next,
+	.quickview-pagination 
+	{
+		display: none;
+	}
+
+	.swiper-slide 
+	{
+		background-size: cover !important;
+		text-align: center;
+		position: relative;
+		display: table;
+		
+		.slider-content 
+		{
+			text-align: center;
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0 15px; 
+			
+			@media screen and (min-width: 1024px) {
+				padding: 0;
+			}
+		}
+
+		h2 
+		{
+			font-size: 50px;
+			line-height: 1.2 !important;
+		}
+
+		h2
+		{
+			margin: 0 10% 25px 15%; 
+		}
+
+		p,
+		.button
+		{
+			margin-bottom: 40px;
+
+			@media screen and (min-width: 1024px) {
+				margin: 0 10% 40px 15%;
+			}
+		}
+
+		p
+		{
+			font-size: 14px; 
+		}
+
+		.button
+		{
+			margin-top: 40px;  
+		}
+
+		.fullslidelink 
+		{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 2;
+		}
+
+	}
+
+	@media only screen and (min-width: 64.063em) 
+	{
+		.swiper-button-prev 
+		{
+			background: none;
+			background-color: transparent;
+			font-size: 60px; 
+            height: auto;
+            width: auto;
+            left: -50px;
+            display: block;
+            transition: all .3s;
+		}
+
+		.swiper-button-next 
+		{
+			background: none;
+			background-color: transparent; 
+			font-size: 60px; 
+            height: auto;
+            width: auto;
+            right: -50px;
+            display: block;
+            transition: all .3s;
+		}
+
+	    .swiper-slide 
+	    {
+			
+			.slider-content-wrapper
+			{
+				width: 50%;
+				position: relative;
+				margin: 0 auto;
+				text-align: center;
+				padding: 0 75px;
+				box-sizing: border-box;
+			}
+
+			&.left-align 
+			{
+				.slider-content-wrapper
+				{
+					float: left;
+					text-align: left;
+				}
+
+			}
+
+			&.right-align 
+			{
+				
+				.slider-content-wrapper 
+				{
+					float: right;
+					text-align: right;
+				}
+
+			}
+
+			&.center-align 
+			{
+				.slider-content-wrapper 
+				{
+					float: none;
+					padding: 0;
+					text-align: center;
+				}
+
+				p,
+				.button
+				{
+					margin-left: 0;
+					margin-right: 0;  
+				}
+
+				h2 
+				{
+					margin: 0 0 25px 0;
+				}
+
+			}
+
+		}
+
+		&:hover 
+		{
+			
+			.swiper-button-prev,
+			.swiper-button-next
+			{
+				i
+				{
+					transition: all ease .5s;
+					
+					&:hover 
+					{
+						opacity: .5;
+					}
+				}
+
+			}
+
+			.swiper-button-prev
+			{
+				left: 30px; 
+				margin-top: -36px;
+			}
+
+			.swiper-button-next
+			{
+				right: 30px; 
+				margin-top: -36px;
+			}
+
+		}
+
+		.shortcode-slider-pagination
+		{
+			display: block;
+			position: absolute;
+			left: 0;
+			bottom: 80px;
+			z-index: 9999;
+			width: 100%;
+			text-align: center;
+
+			.swiper-pagination-bullet 
+			{
+				margin: 0 10px;
+				background: none;
+				transition: all .3s ease;
+				width: auto;
+				height: auto; 
+				font-size: 13px;  
+				font-weight: bold;
+				counter-increment: slideNum;
+				opacity: .5; 
+				
+				&:before
+				{
+					content: '0'counter(slideNum);
+				}
+				
+				&:after
+				{
+					content: "";
+					height: 1px;
+					width: 0;
+					display: inline-block; 
+					vertical-align: middle;  
+					margin: 0 10px 0 20px;
+					transition: all ease-in .5s;
+				}
+
+				&.swiper-pagination-bullet-active 
+				{
+					background: none;
+					opacity: 1; 
+					
+					&:after
+					{
+						content: "";
+						height: 1px;
+						width: 50px;
+						display: inline-block; 
+						vertical-align: middle;  
+						margin: 0 10px 0 20px;
+					}
+				}
+
+			}
+
+		}
+
+	}
+
+}

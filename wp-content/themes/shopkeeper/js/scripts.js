@@ -1,0 +1,15 @@
+//@prepros-prepend components/gutenberg.js
+//@prepros-prepend components/scripts.js
+//@prepros-prepend components/header.js
+//@prepros-prepend components/wp-blog-ajax.js
+//@prepros-prepend components/wc-product-gallery.js
+//@prepros-prepend components/wc-quickview.js
+//@prepros-prepend components/wc-minicart.js
+//@prepros-prepend components/wc-products-ajax.js
+//@prepros-prepend components/wc-easyzoom.js
+//@prepros-prepend components/wc-product-navigation.js
+//@prepros-prepend components/wc-product-infos.js
+//@prepros-prepend components/wc-product-ratings.js
+//@prepros-prepend components/wc-product-quantity.js
+//@prepros-prepend components/wc-counters.js
+//@prepros-prepend components/wc-catalog-mode.js

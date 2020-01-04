@@ -1,0 +1,75 @@
+ul.sk_social_icons_list {
+  clear: both;
+  display: block;
+  margin: 15px 0;
+  padding: 0;
+  vertical-align: middle; }
+  ul.sk_social_icons_list.left {
+    text-align: left; }
+  ul.sk_social_icons_list.center {
+    text-align: center; }
+  ul.sk_social_icons_list.right {
+    text-align: right; }
+  ul.sk_social_icons_list li.sk_social_icon {
+    display: inline-block;
+    list-style: none;
+    line-height: 1;
+    margin: 10px 30px 10px 0; }
+    ul.sk_social_icons_list li.sk_social_icon:last-child {
+      margin-right: 0; }
+    ul.sk_social_icons_list li.sk_social_icon a.sk_social_icon_link:hover i {
+      opacity: .75; }
+    ul.sk_social_icons_list li.sk_social_icon a.sk_social_icon_link i {
+      -webkit-transition: opacity .2s;
+      -o-transition: opacity .2s;
+      transition: opacity .2s; }
+
+.site-top-bar-social-icons-wrapper {
+  display: block;
+  float: right;
+  padding: 8px 0; }
+  .site-top-bar-social-icons-wrapper ul.sk_social_icons_list {
+    margin: 0;
+    padding-left: 50px; }
+    .site-top-bar-social-icons-wrapper ul.sk_social_icons_list li.sk_social_icon {
+      margin: 5px 10px 5px 0; }
+      .site-top-bar-social-icons-wrapper ul.sk_social_icons_list li.sk_social_icon:last-child {
+        margin-right: 0; }
+      .site-top-bar-social-icons-wrapper ul.sk_social_icons_list li.sk_social_icon svg {
+        width: 16px !important;
+        height: 16px !important; }
+
+.footer_socials_wrapper {
+  margin-bottom: 21px; }
+  @media only screen and (min-width: 40.063em) {
+    .footer_socials_wrapper {
+      margin-bottom: 34px; } }
+
+.off-canvas ul.sk_social_icons_list li.sk_social_icon {
+  margin: 10px 22px 10px 0; }
+  .off-canvas ul.sk_social_icons_list li.sk_social_icon svg {
+    width: 18px !important;
+    height: 18px !important; }
+
+.rtl ul.sk_social_icons_list li.sk_social_icon {
+  margin: 10px 0 10px 30px; }
+  .rtl ul.sk_social_icons_list li.sk_social_icon:last-child {
+    margin-left: 0; }
+
+.rtl .widget_shopkeeper_social_media ul.sk_social_icons_list {
+  text-align: right; }
+
+.rtl .site-top-bar-social-icons-wrapper {
+  float: left; }
+  .rtl .site-top-bar-social-icons-wrapper ul.sk_social_icons_list {
+    padding-left: 0;
+    padding-right: 50px; }
+    .rtl .site-top-bar-social-icons-wrapper ul.sk_social_icons_list li.sk_social_icon {
+      margin: 5px  5px 10px; }
+      .rtl .site-top-bar-social-icons-wrapper ul.sk_social_icons_list li.sk_social_icon:last-child {
+        margin-left: 0; }
+
+.rtl .off-canvas ul.sk_social_icons_list {
+  text-align: right; }
+  .rtl .off-canvas ul.sk_social_icons_list li.sk_social_icon {
+    margin: 10px 0 10px 22px; }

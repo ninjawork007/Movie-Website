@@ -1,0 +1,497 @@
+@media #{$medium-up}
+{
+	.categories_grid .category_1 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_2 {
+		@include grid-column(
+			$columns:3
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_3 {
+		@include grid-column(
+			$columns:3
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_4 {
+		@include grid-column(
+			$columns:3
+		);
+		float:right;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_5 {
+		@include grid-column(
+			$columns:3
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_6 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_more_than_6 {
+		@include grid-column(
+			$columns:4
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_original_grid {
+		@include grid-column(
+			$columns:3
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_five_cat_1 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_five_cat_2 {
+		@include grid-column(
+			$columns:6
+		);
+		float:right;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_five_cat_3 {
+		@include grid-column(
+			$columns:3
+		);
+		float:right;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_five_cat_4 {
+		@include grid-column(
+			$columns:3
+		);
+		float:right;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_five_cat_5 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_four_cat_1 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_four_cat_2 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_four_cat_3 {
+		@include grid-column(
+			$columns:3
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_four_cat_4 {
+		@include grid-column(
+			$columns:3
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_three_cat_1 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_three_cat_2 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_three_cat_3 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_two_cat_1 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_two_cat_2 {
+		@include grid-column(
+			$columns:6
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+    .categories_grid .category_one_cat_1 {
+		@include grid-column(
+			$columns:12
+		);
+		float:left;
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_1 .category_item,
+	.categories_grid .category_2 .category_item,
+	.categories_grid .category_4 .category_item,
+    .categories_grid .category_five_cat_1 .category_item,
+    .categories_grid .category_five_cat_3 .category_item,
+    .categories_grid .category_five_cat_4 .category_item,
+    .categories_grid .category_four_cat_1 .category_item,
+    .categories_grid .category_three_cat_1 .category_item,
+    .categories_grid .category_two_cat_1 .category_item,
+    .categories_grid .category_two_cat_2 .category_item,
+    .categories_grid .category_one_cat_1 .category_item
+    {
+		height:$row-width/3-$column-gutter;
+	}
+
+	.categories_grid .category_3 .category_item,
+	.categories_grid .category_5 .category_item,
+	.categories_grid .category_6 .category_item,
+	.categories_grid .category_more_than_6 .category_item,
+	.categories_grid .category_five_cat_2 .category_item,
+    .categories_grid .category_five_cat_5 .category_item,
+    .categories_grid .category_four_cat_2 .category_item,
+    .categories_grid .category_four_cat_3 .category_item,
+    .categories_grid .category_four_cat_4 .category_item,
+    .categories_grid .category_three_cat_2 .category_item,
+    .categories_grid .category_three_cat_3 .category_item
+    {
+		height:$row-width/6-$column-gutter;
+	}
+
+	.categories_grid .category_original_grid .category_item {
+		height:($row-width/8-$column-gutter)/1.5;
+	}
+}
+
+
+@media #{$medium-only} {
+
+	.categories_grid .category_original_grid
+	{
+		@include grid-column(
+			$columns:6
+		);
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_1 .category_item,
+	.categories_grid .category_2 .category_item,
+	.categories_grid .category_4 .category_item,
+    .categories_grid .category_five_cat_1 .category_item,
+    .categories_grid .category_five_cat_3 .category_item,
+	.categories_grid .category_five_cat_4 .category_item,
+    .categories_grid .category_four_cat_1 .category_item,
+    .categories_grid .category_three_cat_1 .category_item,
+    .categories_grid .category_two_cat_1 .category_item,
+    .categories_grid .category_two_cat_2 .category_item,
+    .categories_grid .category_one_cat_1 .category_item
+    {
+		height:$row-width/6-$column-gutter;
+	}
+
+	.categories_grid .category_3 .category_item,
+	.categories_grid .category_5 .category_item,
+	.categories_grid .category_6 .category_item,
+	.categories_grid .category_more_than_6 .category_item,
+    .categories_grid .category_five_cat_2 .category_item,
+    .categories_grid .category_five_cat_5 .category_item,
+    .categories_grid .category_four_cat_2 .category_item,
+    .categories_grid .category_four_cat_3 .category_item,
+    .categories_grid .category_four_cat_4 .category_item,
+    .categories_grid .category_three_cat_2 .category_item,
+    .categories_grid .category_three_cat_3 .category_item
+    {
+		height:$row-width/12-$column-gutter;
+	}
+
+	.categories_grid .category_original_grid .category_item
+    {
+		height:($row-width/6-$column-gutter)/1.5;
+	}
+
+	.columns-1 .category_list .category_item,
+	.columns-2 .category_list .category_item,
+	.columns-3 .category_list .category_item,
+	.columns-4 .category_list .category_item,
+	.columns-5 .category_list .category_item,
+	.columns-6 .category_list .category_item
+    {
+		height:($row-width/8-$column-gutter)/1.5;
+	}
+
+}
+
+@media #{$small-only} {
+
+	.categories_grid .category_1,
+	.categories_grid .category_2,
+	.categories_grid .category_3,
+	.categories_grid .category_4,
+	.categories_grid .category_5,
+	.categories_grid .category_6,
+	.categories_grid .category_more_than_6,
+	.categories_grid .category_original_grid,
+    .categories_grid .category_five_cat_1,
+    .categories_grid .category_five_cat_2,
+    .categories_grid .category_five_cat_3,
+    .categories_grid .category_five_cat_4,
+    .categories_grid .category_five_cat_5,
+    .categories_grid .category_four_cat_1,
+    .categories_grid .category_four_cat_2,
+    .categories_grid .category_four_cat_3,
+    .categories_grid .category_four_cat_4,
+    .categories_grid .category_three_cat_1,
+    .categories_grid .category_three_cat_2,
+    .categories_grid .category_three_cat_3,
+    .categories_grid .category_two_cat_1,
+    .categories_grid .category_two_cat_2,
+    .categories_grid .category_one_cat_1
+    {
+		@include grid-column(
+			$columns:12
+		);
+		margin-bottom:$column-gutter;
+	}
+
+	.categories_grid .category_1 .category_item,
+	.categories_grid .category_2 .category_item,
+	.categories_grid .category_3 .category_item,
+	.categories_grid .category_4 .category_item,
+	.categories_grid .category_5 .category_item,
+	.categories_grid .category_6 .category_item,
+	.categories_grid .category_more_than_6 .category_item,
+	.categories_grid .category_original_grid .category_item,
+    .categories_grid .category_five_cat_1 .category_item,
+    .categories_grid .category_five_cat_2 .category_item,
+    .categories_grid .category_five_cat_3 .category_item,
+    .categories_grid .category_five_cat_4 .category_item,
+    .categories_grid .category_five_cat_5 .category_item,
+    .categories_grid .category_four_cat_1 .category_item,
+    .categories_grid .category_four_cat_2 .category_item,
+    .categories_grid .category_four_cat_3 .category_item,
+    .categories_grid .category_four_cat_4 .category_item,
+    .categories_grid .category_three_cat_1 .category_item,
+    .categories_grid .category_three_cat_2 .category_item,
+    .categories_grid .category_three_cat_3 .category_item,
+    .categories_grid .category_two_cat_1 .category_item,
+    .categories_grid .category_two_cat_2 .category_item,
+    .categories_grid .category_one_cat_1 .category_item
+    {
+		height:($row-width/5-$column-gutter)/1.5;
+	}
+
+	.columns-1 .category_list .category_item
+    {
+		height:$row-width/6-$column-gutter;
+	}
+
+	.columns-2 .category_list .category_item,
+    {
+		height:($row-width/4-$column-gutter)/1.1;
+	}
+
+	.columns-3 .category_list .category_item
+    {
+		height:($row-width/6-$column-gutter)/1.1;
+	}
+
+	.columns-4 .category_list .category_item
+    {
+		height:($row-width/8-$column-gutter)/1.1;
+	}
+
+	.columns-5 .category_list .category_item
+    {
+		height:($row-width/10-$column-gutter)/1.1;
+	}
+
+	.columns-6 .category_list .category_item
+    {
+		height:($row-width/12-$column-gutter)/1.1;
+	}
+
+}
+
+@media #{$medium-only} {
+	.columns-1 .category_list .category_item
+    {
+		height:$row-width/6-$column-gutter;
+	}
+
+	.columns-2 .category_list .category_item,
+    {
+		height:($row-width/4-$column-gutter)/0.8;
+	}
+
+	.columns-3 .category_list .category_item
+    {
+		height:($row-width/6-$column-gutter)/0.8;
+	}
+
+	.columns-4 .category_list .category_item
+    {
+		height:($row-width/8-$column-gutter)/0.8;
+	}
+
+	.columns-5 .category_list .category_item
+    {
+		height:($row-width/10-$column-gutter)/0.8;
+	}
+
+	.columns-6 .category_list .category_item
+    {
+		height:($row-width/12-$column-gutter)/0.8;
+	}
+}
+
+@media #{$large-only} {
+	.columns-1 .category_list .category_item
+    {
+		height:$row-width/6-$column-gutter;
+	}
+
+	.columns-2 .category_list .category_item,
+    {
+		height:($row-width/4-$column-gutter)/1.5;
+	}
+
+	.columns-3 .category_list .category_item
+    {
+		height:($row-width/6-$column-gutter)/1.5;
+	}
+
+	.columns-4 .category_list .category_item
+    {
+		height:($row-width/8-$column-gutter)/1.5;
+	}
+
+	.columns-5 .category_list .category_item
+    {
+		height:($row-width/10-$column-gutter)/1.5;
+	}
+
+	.columns-6 .category_list .category_item
+    {
+		height:($row-width/12-$column-gutter)/1.5;
+	}
+}
+
+@media #{$xlarge-only} {
+	.columns-1 .category_list .category_item
+    {
+		height:$row-width/6-$column-gutter;
+	}
+
+	.columns-2 .category_list .category_item,
+    {
+		height:($row-width/4-$column-gutter)/1.05;
+	}
+
+	.columns-3 .category_list .category_item
+    {
+		height:($row-width/6-$column-gutter)/1.05;
+	}
+
+	.columns-4 .category_list .category_item
+    {
+		height:($row-width/8-$column-gutter)/1.05;
+	}
+
+	.columns-5 .category_list .category_item
+    {
+		height:($row-width/10-$column-gutter)/1.05;
+	}
+
+	.columns-6 .category_list .category_item
+    {
+		height:($row-width/12-$column-gutter)/1.05;
+	}
+}
+
+@media #{$xxlarge-up} {
+	.columns-1 .category_list .category_item
+    {
+		height:$row-width/6-$column-gutter;
+	}
+
+	.columns-2 .category_list .category_item,
+    {
+		height:($row-width/4-$column-gutter)/0.74;
+	}
+
+	.columns-3 .category_list .category_item
+    {
+		height:($row-width/6-$column-gutter)/0.74;
+	}
+
+	.columns-4 .category_list .category_item
+    {
+		height:($row-width/8-$column-gutter)/0.74;
+	}
+
+	.columns-5 .category_list .category_item
+    {
+		height:($row-width/10-$column-gutter)/0.74;
+	}
+
+	.columns-6 .category_list .category_item
+    {
+		height:($row-width/12-$column-gutter)/0.74;
+	}
+}

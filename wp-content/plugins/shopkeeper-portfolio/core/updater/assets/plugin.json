@@ -1,0 +1,28 @@
+{
+	"name": "Shopkeeper Portfolio Addon",
+	"version": "1.2.3",
+	"download_url": "https://github.com/getbowtied/shopkeeper-portfolio/zipball/master",
+
+	"homepage": "https://themeforest.net/item/shopkeeper-ecommerce-wp-theme-for-woocommerce/9553045",
+	"requires": "5.0",
+	"tested": "5.2.2",
+	"last_updated": "2019-07-29 12:00:00",
+
+	"author": "GetBowtied",
+	"author_homepage": "https://getbowtied.com/",
+
+	"sections": {
+		"description": "<p>Extends the functionality of your WordPress site by adding a 'Portfolio' custom post type allowing you to organize and showcase your work or products. Companion plugin for the Shopkeeper theme.</p>",
+		"changelog": "<h4>1.2.3</h4><ul><li>Fixed: WPBakery element - portfolio categories list</li></ul><h4>1.2.2</h4><ul><li>Small maintenance updates</li></ul><h4>1.2.1</h4><ul><li>Small maintenance updates</li></ul><h4>1.2</h4><ul><li>Small maintenance updates</li></ul><h4>1.1</h4><ul><li>Fixed: Template issues</li></ul><h4>1.0</h4><ul><li>Initial Version</li></ul>"
+	},
+	
+	"icons" : {
+		"1x" : "https://raw.githubusercontent.com/getbowtied/shopkeeper-portfolio/master/core/updater/assets/images/shopkeeper-portfolio-128x128.png",
+		"2x" : "https://raw.githubusercontent.com/getbowtied/shopkeeper-portfolio/master/core/updater/assets/images/shopkeeper-portfolio-256x256.png"
+    },
+
+	"banners": {
+		"low": "https://raw.githubusercontent.com/getbowtied/shopkeeper-portfolio/master/core/updater/assets/images/shopkeeper-portfolio-772x250.png",
+		"high": "https://raw.githubusercontent.com/getbowtied/shopkeeper-portfolio/master/core/updater/assets/images/shopkeeper-portfolio-1544x500.png"
+	}
+}

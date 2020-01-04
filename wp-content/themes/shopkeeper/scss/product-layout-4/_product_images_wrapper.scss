@@ -1,0 +1,155 @@
+//==============================================================================
+// Product Layout 4 / Product Images Wrapper
+//==============================================================================
+
+.product-images-wrapper
+{
+	position: relative;
+	
+	.woocommerce-product-gallery__wrapper
+	{
+		height: auto !important;
+	}
+
+	.product-images-style-4
+	{
+		display: none;
+	
+		@media (min-width:1024px)
+		{
+			display: block;
+		}
+
+
+		&.images
+		{
+			float: none !important;
+			width: auto !important;
+			margin: 0 !important;
+			
+			.product-image
+			{
+				width: 100%; 
+				
+				img
+				{
+					cursor: url(../images/cursor-zoom.png), auto;
+				}
+			}
+
+		}
+
+		.product_images
+		{
+			font-size: 0;
+
+			.product-image
+			{
+				height: auto !important;
+			}
+			
+			> .product-image
+			{
+				margin-bottom: 100px;
+				vertical-align: middle;
+				position: relative;
+				text-align: center;
+				width: 60% !important; 
+				
+				.easyzoom.el_zoom
+	            {
+	                img
+	                {
+	                    cursor: url(../images/cursor-zoom.png), auto;
+	                }
+	            }
+				
+				@media screen and (min-width: 1024px) 
+				{
+					padding: 0 30px;
+					display: inline-block;
+				}
+				
+				&.mobile
+				{
+					display: none;
+				}
+
+				.desktop-image
+				{
+					display: block;
+				}
+			
+				
+				&:last-child
+				{
+					margin-bottom: 0;
+				}
+				
+				&:first-child
+				{
+					width: 100% !important; 
+					
+					img
+					{
+						padding: 0;
+					}
+				} 
+				
+				&:nth-child(4n+4),
+				&:nth-child(4n+3)
+				{
+					width: 40% !important; 
+					display: inline-block;
+					vertical-align: middle; 
+					
+					@media screen and (min-width: 1024px)
+					{
+						padding: 60px 30px 0; 
+					}
+				}
+
+				img
+				{
+				   width: 100%; 
+				}
+
+				&.video
+				{
+					width: 100%; 
+					margin-bottom: 0;
+				}
+
+			}
+
+			.video
+			{
+				padding-top: 56.2222%;
+                width: 100%;
+                position: relative;
+
+                iframe
+                {
+                	position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+			}
+			
+			&:after
+			{
+				content: "";
+				display: block;
+				clear: both; 
+			}
+
+			.product-video-icon
+			{
+				display: none;
+			}
+
+		}
+	}
+}

@@ -1,0 +1,214 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2?dev9eh') format('woff2'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?dev9eh') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?dev9eh') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?dev9eh##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="spk-icon-"], [class*=" spk-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.spk-icon-checked {
+  &:before {
+    content: $spk-icon-checked; 
+  }
+}
+.spk-icon-sync {
+  &:before {
+    content: $spk-icon-sync; 
+  }
+}
+.spk-icon-Document_3 {
+  &:before {
+    content: $spk-icon-Document_3; 
+  }
+}
+.spk-icon-Add_2 {
+  &:before {
+    content: $spk-icon-Add_2; 
+  }
+}
+.spk-icon-Remove_2 {
+  &:before {
+    content: $spk-icon-Remove_2; 
+  }
+}
+.spk-icon-icon-arrow-right {
+  &:before {
+    content: $spk-icon-icon-arrow-right; 
+  }
+}
+.spk-icon-icon-message {
+  &:before {
+    content: $spk-icon-icon-message; 
+  }
+}
+.spk-icon-icon-like-it {
+  &:before {
+    content: $spk-icon-icon-like-it; 
+  }
+}
+.spk-icon-close-thin-large {
+  &:before {
+    content: $spk-icon-close-thin-large; 
+  }
+}
+.spk-icon-down-arrow-thin-large {
+  &:before {
+    content: $spk-icon-down-arrow-thin-large; 
+  }
+}
+.spk-icon-left-arrow-thin-large {
+  &:before {
+    content: $spk-icon-left-arrow-thin-large; 
+  }
+}
+.spk-icon-right-arrow-thin-large {
+  &:before {
+    content: $spk-icon-right-arrow-thin-large; 
+  }
+}
+.spk-icon-up-arrow-thin-large {
+  &:before {
+    content: $spk-icon-up-arrow-thin-large; 
+  }
+}
+.spk-icon-menu-filters {
+  &:before {
+    content: $spk-icon-menu-filters; 
+  }
+}
+.spk-icon-down-small {
+  &:before {
+    content: $spk-icon-down-small; 
+  }
+}
+.spk-icon-left-small {
+  &:before {
+    content: $spk-icon-left-small; 
+  }
+}
+.spk-icon-right-small {
+  &:before {
+    content: $spk-icon-right-small; 
+  }
+}
+.spk-icon-up-small {
+  &:before {
+    content: $spk-icon-up-small; 
+  }
+}
+.spk-icon-video-player {
+  &:before {
+    content: $spk-icon-video-player; 
+  }
+}
+.spk-icon-load-more {
+  &:before {
+    content: $spk-icon-load-more; 
+  }
+}
+.spk-icon-diamond {
+  &:before {
+    content: $spk-icon-diamond; 
+  }
+}
+.spk-icon-spk_error {
+  &:before {
+    content: $spk-icon-spk_error; 
+  }
+}
+.spk-icon-spk_check {
+  &:before {
+    content: $spk-icon-spk_check; 
+  }
+}
+.spk-icon-warning {
+  &:before {
+    content: $spk-icon-warning; 
+  }
+}
+.spk-icon-close {
+  &:before {
+    content: $spk-icon-close; 
+  }
+}
+.spk-icon-arrow-left {
+  &:before {
+    content: $spk-icon-arrow-left; 
+  }
+}
+.spk-icon-arrow-right {
+  &:before {
+    content: $spk-icon-arrow-right; 
+  }
+}
+.spk-icon-view {
+  &:before {
+    content: $spk-icon-view; 
+  }
+}
+.spk-icon-heart-full {
+  &:before {
+    content: $spk-icon-heart-full; 
+  }
+}
+.spk-icon-heart {
+  &:before {
+    content: $spk-icon-heart; 
+  }
+}
+.spk-icon-cart-shopkeeper {
+  &:before {
+    content: $spk-icon-cart-shopkeeper; 
+  }
+}
+.spk-icon-menu {
+  &:before {
+    content: $spk-icon-menu; 
+  }
+}
+.spk-icon-search {
+  &:before {
+    content: $spk-icon-search; 
+  }
+}
+.spk-icon-user-account {
+  &:before {
+    content: $spk-icon-user-account; 
+  }
+}
+.spk-icon-quote-left {
+  &:before {
+    content: $spk-icon-quote-left; 
+  }
+}
+.spk-icon-used-product {
+  &:before {
+    content: $spk-icon-used-product; 
+  }
+}
+.spk-icon-coupon {
+  &:before {
+    content: $spk-icon-coupon; 
+  }
+}
+
